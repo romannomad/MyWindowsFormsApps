@@ -1,0 +1,10 @@
+D:\C# Projects\Windows Forms Projects\37 Click Counter App\Click Counter App\Click Counter App\bin\Debug\Click Counter App.exe.config
+D:\C# Projects\Windows Forms Projects\37 Click Counter App\Click Counter App\Click Counter App\bin\Debug\Click Counter App.exe
+D:\C# Projects\Windows Forms Projects\37 Click Counter App\Click Counter App\Click Counter App\bin\Debug\Click Counter App.pdb
+D:\C# Projects\Windows Forms Projects\37 Click Counter App\Click Counter App\Click Counter App\obj\Debug\Click Counter App.csproj.AssemblyReference.cache
+D:\C# Projects\Windows Forms Projects\37 Click Counter App\Click Counter App\Click Counter App\obj\Debug\Click_Counter_App.Form1.resources
+D:\C# Projects\Windows Forms Projects\37 Click Counter App\Click Counter App\Click Counter App\obj\Debug\Click_Counter_App.Properties.Resources.resources
+D:\C# Projects\Windows Forms Projects\37 Click Counter App\Click Counter App\Click Counter App\obj\Debug\Click Counter App.csproj.GenerateResource.cache
+D:\C# Projects\Windows Forms Projects\37 Click Counter App\Click Counter App\Click Counter App\obj\Debug\Click Counter App.csproj.CoreCompileInputs.cache
+D:\C# Projects\Windows Forms Projects\37 Click Counter App\Click Counter App\Click Counter App\obj\Debug\Click Counter App.exe
+D:\C# Projects\Windows Forms Projects\37 Click Counter App\Click Counter App\Click Counter App\obj\Debug\Click Counter App.pdb

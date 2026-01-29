@@ -1,0 +1,10 @@
+D:\C# Projects\Windows Forms Projects\36 Text App\TextApp\TextApp\bin\Debug\TextApp.exe.config
+D:\C# Projects\Windows Forms Projects\36 Text App\TextApp\TextApp\bin\Debug\TextApp.exe
+D:\C# Projects\Windows Forms Projects\36 Text App\TextApp\TextApp\bin\Debug\TextApp.pdb
+D:\C# Projects\Windows Forms Projects\36 Text App\TextApp\TextApp\obj\Debug\TextApp.csproj.AssemblyReference.cache
+D:\C# Projects\Windows Forms Projects\36 Text App\TextApp\TextApp\obj\Debug\TextApp.Form1.resources
+D:\C# Projects\Windows Forms Projects\36 Text App\TextApp\TextApp\obj\Debug\TextApp.Properties.Resources.resources
+D:\C# Projects\Windows Forms Projects\36 Text App\TextApp\TextApp\obj\Debug\TextApp.csproj.GenerateResource.cache
+D:\C# Projects\Windows Forms Projects\36 Text App\TextApp\TextApp\obj\Debug\TextApp.csproj.CoreCompileInputs.cache
+D:\C# Projects\Windows Forms Projects\36 Text App\TextApp\TextApp\obj\Debug\TextApp.exe
+D:\C# Projects\Windows Forms Projects\36 Text App\TextApp\TextApp\obj\Debug\TextApp.pdb
