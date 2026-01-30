@@ -1,0 +1,10 @@
+D:\C# Projects\MyWindowsFormsApps\04-ColorChangerApp\ColorChangerApp\ColorChangerApp\bin\Debug\ColorChangerApp.exe.config
+D:\C# Projects\MyWindowsFormsApps\04-ColorChangerApp\ColorChangerApp\ColorChangerApp\bin\Debug\ColorChangerApp.exe
+D:\C# Projects\MyWindowsFormsApps\04-ColorChangerApp\ColorChangerApp\ColorChangerApp\bin\Debug\ColorChangerApp.pdb
+D:\C# Projects\MyWindowsFormsApps\04-ColorChangerApp\ColorChangerApp\ColorChangerApp\obj\Debug\ColorChangerApp.csproj.AssemblyReference.cache
+D:\C# Projects\MyWindowsFormsApps\04-ColorChangerApp\ColorChangerApp\ColorChangerApp\obj\Debug\ColorChangerApp.Form1.resources
+D:\C# Projects\MyWindowsFormsApps\04-ColorChangerApp\ColorChangerApp\ColorChangerApp\obj\Debug\ColorChangerApp.Properties.Resources.resources
+D:\C# Projects\MyWindowsFormsApps\04-ColorChangerApp\ColorChangerApp\ColorChangerApp\obj\Debug\ColorChangerApp.csproj.GenerateResource.cache
+D:\C# Projects\MyWindowsFormsApps\04-ColorChangerApp\ColorChangerApp\ColorChangerApp\obj\Debug\ColorChangerApp.csproj.CoreCompileInputs.cache
+D:\C# Projects\MyWindowsFormsApps\04-ColorChangerApp\ColorChangerApp\ColorChangerApp\obj\Debug\ColorChangerApp.exe
+D:\C# Projects\MyWindowsFormsApps\04-ColorChangerApp\ColorChangerApp\ColorChangerApp\obj\Debug\ColorChangerApp.pdb
