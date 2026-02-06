@@ -1,0 +1,10 @@
+D:\C# Projects\MyWindowsFormsApps\11-ImageViewerApp\ImageViewerApp\ImageViewerApp\bin\Debug\ImageViewerApp.exe.config
+D:\C# Projects\MyWindowsFormsApps\11-ImageViewerApp\ImageViewerApp\ImageViewerApp\bin\Debug\ImageViewerApp.exe
+D:\C# Projects\MyWindowsFormsApps\11-ImageViewerApp\ImageViewerApp\ImageViewerApp\bin\Debug\ImageViewerApp.pdb
+D:\C# Projects\MyWindowsFormsApps\11-ImageViewerApp\ImageViewerApp\ImageViewerApp\obj\Debug\ImageViewerApp.csproj.AssemblyReference.cache
+D:\C# Projects\MyWindowsFormsApps\11-ImageViewerApp\ImageViewerApp\ImageViewerApp\obj\Debug\ImageViewerApp.Form1.resources
+D:\C# Projects\MyWindowsFormsApps\11-ImageViewerApp\ImageViewerApp\ImageViewerApp\obj\Debug\ImageViewerApp.Properties.Resources.resources
+D:\C# Projects\MyWindowsFormsApps\11-ImageViewerApp\ImageViewerApp\ImageViewerApp\obj\Debug\ImageViewerApp.csproj.GenerateResource.cache
+D:\C# Projects\MyWindowsFormsApps\11-ImageViewerApp\ImageViewerApp\ImageViewerApp\obj\Debug\ImageViewerApp.csproj.CoreCompileInputs.cache
+D:\C# Projects\MyWindowsFormsApps\11-ImageViewerApp\ImageViewerApp\ImageViewerApp\obj\Debug\ImageViewerApp.exe
+D:\C# Projects\MyWindowsFormsApps\11-ImageViewerApp\ImageViewerApp\ImageViewerApp\obj\Debug\ImageViewerApp.pdb
