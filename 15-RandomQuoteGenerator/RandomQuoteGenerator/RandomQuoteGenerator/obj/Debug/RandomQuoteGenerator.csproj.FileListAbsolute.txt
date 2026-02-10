@@ -1,0 +1,10 @@
+D:\C# Projects\MyWindowsFormsApps\15-RandomQuoteGenerator\RandomQuoteGenerator\RandomQuoteGenerator\bin\Debug\RandomQuoteGenerator.exe.config
+D:\C# Projects\MyWindowsFormsApps\15-RandomQuoteGenerator\RandomQuoteGenerator\RandomQuoteGenerator\bin\Debug\RandomQuoteGenerator.exe
+D:\C# Projects\MyWindowsFormsApps\15-RandomQuoteGenerator\RandomQuoteGenerator\RandomQuoteGenerator\bin\Debug\RandomQuoteGenerator.pdb
+D:\C# Projects\MyWindowsFormsApps\15-RandomQuoteGenerator\RandomQuoteGenerator\RandomQuoteGenerator\obj\Debug\RandomQuoteGenerator.csproj.AssemblyReference.cache
+D:\C# Projects\MyWindowsFormsApps\15-RandomQuoteGenerator\RandomQuoteGenerator\RandomQuoteGenerator\obj\Debug\RandomQuoteGenerator.Form1.resources
+D:\C# Projects\MyWindowsFormsApps\15-RandomQuoteGenerator\RandomQuoteGenerator\RandomQuoteGenerator\obj\Debug\RandomQuoteGenerator.Properties.Resources.resources
+D:\C# Projects\MyWindowsFormsApps\15-RandomQuoteGenerator\RandomQuoteGenerator\RandomQuoteGenerator\obj\Debug\RandomQuoteGenerator.csproj.GenerateResource.cache
+D:\C# Projects\MyWindowsFormsApps\15-RandomQuoteGenerator\RandomQuoteGenerator\RandomQuoteGenerator\obj\Debug\RandomQuoteGenerator.csproj.CoreCompileInputs.cache
+D:\C# Projects\MyWindowsFormsApps\15-RandomQuoteGenerator\RandomQuoteGenerator\RandomQuoteGenerator\obj\Debug\RandomQuoteGenerator.exe
+D:\C# Projects\MyWindowsFormsApps\15-RandomQuoteGenerator\RandomQuoteGenerator\RandomQuoteGenerator\obj\Debug\RandomQuoteGenerator.pdb
