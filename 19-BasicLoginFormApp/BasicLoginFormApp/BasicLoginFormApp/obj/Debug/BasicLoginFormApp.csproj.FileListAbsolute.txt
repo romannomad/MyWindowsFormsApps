@@ -1,0 +1,10 @@
+D:\C# Projects\MyWindowsFormsApps\19-BasicLoginFormApp\BasicLoginFormApp\BasicLoginFormApp\bin\Debug\BasicLoginFormApp.exe.config
+D:\C# Projects\MyWindowsFormsApps\19-BasicLoginFormApp\BasicLoginFormApp\BasicLoginFormApp\bin\Debug\BasicLoginFormApp.exe
+D:\C# Projects\MyWindowsFormsApps\19-BasicLoginFormApp\BasicLoginFormApp\BasicLoginFormApp\bin\Debug\BasicLoginFormApp.pdb
+D:\C# Projects\MyWindowsFormsApps\19-BasicLoginFormApp\BasicLoginFormApp\BasicLoginFormApp\obj\Debug\BasicLoginFormApp.csproj.AssemblyReference.cache
+D:\C# Projects\MyWindowsFormsApps\19-BasicLoginFormApp\BasicLoginFormApp\BasicLoginFormApp\obj\Debug\BasicLoginFormApp.Form1.resources
+D:\C# Projects\MyWindowsFormsApps\19-BasicLoginFormApp\BasicLoginFormApp\BasicLoginFormApp\obj\Debug\BasicLoginFormApp.Properties.Resources.resources
+D:\C# Projects\MyWindowsFormsApps\19-BasicLoginFormApp\BasicLoginFormApp\BasicLoginFormApp\obj\Debug\BasicLoginFormApp.csproj.GenerateResource.cache
+D:\C# Projects\MyWindowsFormsApps\19-BasicLoginFormApp\BasicLoginFormApp\BasicLoginFormApp\obj\Debug\BasicLoginFormApp.csproj.CoreCompileInputs.cache
+D:\C# Projects\MyWindowsFormsApps\19-BasicLoginFormApp\BasicLoginFormApp\BasicLoginFormApp\obj\Debug\BasicLoginFormApp.exe
+D:\C# Projects\MyWindowsFormsApps\19-BasicLoginFormApp\BasicLoginFormApp\BasicLoginFormApp\obj\Debug\BasicLoginFormApp.pdb
