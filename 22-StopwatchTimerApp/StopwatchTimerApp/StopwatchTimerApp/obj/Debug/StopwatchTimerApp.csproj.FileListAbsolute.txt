@@ -1,0 +1,10 @@
+D:\C# Projects\MyWindowsFormsApps\22-StopwatchTimerApp\StopwatchTimerApp\StopwatchTimerApp\bin\Debug\StopwatchTimerApp.exe.config
+D:\C# Projects\MyWindowsFormsApps\22-StopwatchTimerApp\StopwatchTimerApp\StopwatchTimerApp\bin\Debug\StopwatchTimerApp.exe
+D:\C# Projects\MyWindowsFormsApps\22-StopwatchTimerApp\StopwatchTimerApp\StopwatchTimerApp\bin\Debug\StopwatchTimerApp.pdb
+D:\C# Projects\MyWindowsFormsApps\22-StopwatchTimerApp\StopwatchTimerApp\StopwatchTimerApp\obj\Debug\StopwatchTimerApp.csproj.AssemblyReference.cache
+D:\C# Projects\MyWindowsFormsApps\22-StopwatchTimerApp\StopwatchTimerApp\StopwatchTimerApp\obj\Debug\StopwatchTimerApp.Form1.resources
+D:\C# Projects\MyWindowsFormsApps\22-StopwatchTimerApp\StopwatchTimerApp\StopwatchTimerApp\obj\Debug\StopwatchTimerApp.Properties.Resources.resources
+D:\C# Projects\MyWindowsFormsApps\22-StopwatchTimerApp\StopwatchTimerApp\StopwatchTimerApp\obj\Debug\StopwatchTimerApp.csproj.GenerateResource.cache
+D:\C# Projects\MyWindowsFormsApps\22-StopwatchTimerApp\StopwatchTimerApp\StopwatchTimerApp\obj\Debug\StopwatchTimerApp.csproj.CoreCompileInputs.cache
+D:\C# Projects\MyWindowsFormsApps\22-StopwatchTimerApp\StopwatchTimerApp\StopwatchTimerApp\obj\Debug\StopwatchTimerApp.exe
+D:\C# Projects\MyWindowsFormsApps\22-StopwatchTimerApp\StopwatchTimerApp\StopwatchTimerApp\obj\Debug\StopwatchTimerApp.pdb
