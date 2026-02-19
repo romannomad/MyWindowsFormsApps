@@ -1,0 +1,10 @@
+D:\C# Projects\MyWindowsFormsApps\23-PhilosophicalBoxApp\PhilosophicalBoxApp\PhilosophicalBoxApp\bin\Debug\PhilosophicalBoxApp.exe.config
+D:\C# Projects\MyWindowsFormsApps\23-PhilosophicalBoxApp\PhilosophicalBoxApp\PhilosophicalBoxApp\bin\Debug\PhilosophicalBoxApp.exe
+D:\C# Projects\MyWindowsFormsApps\23-PhilosophicalBoxApp\PhilosophicalBoxApp\PhilosophicalBoxApp\bin\Debug\PhilosophicalBoxApp.pdb
+D:\C# Projects\MyWindowsFormsApps\23-PhilosophicalBoxApp\PhilosophicalBoxApp\PhilosophicalBoxApp\obj\Debug\PhilosophicalBoxApp.csproj.AssemblyReference.cache
+D:\C# Projects\MyWindowsFormsApps\23-PhilosophicalBoxApp\PhilosophicalBoxApp\PhilosophicalBoxApp\obj\Debug\PhilosophicalBoxApp.Form1.resources
+D:\C# Projects\MyWindowsFormsApps\23-PhilosophicalBoxApp\PhilosophicalBoxApp\PhilosophicalBoxApp\obj\Debug\PhilosophicalBoxApp.Properties.Resources.resources
+D:\C# Projects\MyWindowsFormsApps\23-PhilosophicalBoxApp\PhilosophicalBoxApp\PhilosophicalBoxApp\obj\Debug\PhilosophicalBoxApp.csproj.GenerateResource.cache
+D:\C# Projects\MyWindowsFormsApps\23-PhilosophicalBoxApp\PhilosophicalBoxApp\PhilosophicalBoxApp\obj\Debug\PhilosophicalBoxApp.csproj.CoreCompileInputs.cache
+D:\C# Projects\MyWindowsFormsApps\23-PhilosophicalBoxApp\PhilosophicalBoxApp\PhilosophicalBoxApp\obj\Debug\PhilosophicalBoxApp.exe
+D:\C# Projects\MyWindowsFormsApps\23-PhilosophicalBoxApp\PhilosophicalBoxApp\PhilosophicalBoxApp\obj\Debug\PhilosophicalBoxApp.pdb
