@@ -36,7 +36,7 @@ namespace FunnyJokesApp
 
         private void btnColorChange_Click(object sender, EventArgs e)
         {
-            Color[] colors = { Color.Yellow, Color.Red, Color.Green, Color.Orange, Color.DarkGray, Color.BlueViolet };
+            Color[] colors = { Color.Yellow, Color.Red, Color.Green, Color.Orange, Color.DarkGray, Color.BlueViolet, Color.DeepPink };
             this.BackColor = colors[rnd.Next(colors.Length)];
         }
     }
