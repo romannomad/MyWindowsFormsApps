@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{91BF251F-89F0-4162-8750-A1CE407D41FF}|FunnyJokesApp\\FunnyJokesApp.csproj|solutionrelative:funnyjokesapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91BF251F-89F0-4162-8750-A1CE407D41FF}|FunnyJokesApp\\FunnyJokesApp.csproj|d:\\c# projects\\mywindowsformsapps\\25-funnyjokesapp\\funnyjokesapp\\funnyjokesapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{91BF251F-89F0-4162-8750-A1CE407D41FF}|FunnyJokesApp\\FunnyJokesApp.csproj|D:\\C# Projects\\MyWindowsFormsApps\\25-FunnyJokesApp\\FunnyJokesApp\\funnyjokesapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{91BF251F-89F0-4162-8750-A1CE407D41FF}|FunnyJokesApp\\FunnyJokesApp.csproj|solutionrelative:funnyjokesapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "FunnyJokesApp\\Form1.cs",
               "ToolTip": "D:\\C# Projects\\MyWindowsFormsApps\\25-FunnyJokesApp\\FunnyJokesApp\\FunnyJokesApp\\Form1.cs",
               "RelativeToolTip": "FunnyJokesApp\\Form1.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCAAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwCYAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-21T09:13:35.719Z",
               "EditorCaption": ""

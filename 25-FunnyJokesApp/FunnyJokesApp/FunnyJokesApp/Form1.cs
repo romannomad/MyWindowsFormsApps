@@ -12,6 +12,8 @@ namespace FunnyJokesApp
 {
     public partial class Form1 : Form
     {
+        private Random rnd = new Random();
+        
         string[] jokes =
         {
             "Why don’t skeletons fight, they don’t have the guts",
@@ -27,10 +29,15 @@ namespace FunnyJokesApp
 
         private void btnClick_Click(object sender, EventArgs e)
         {
-            Random rnd = new Random();
+            
             int index = rnd.Next(jokes.Length);
-
             lblResult.Text = jokes[index];
+        }
+
+        private void btnColorChange_Click(object sender, EventArgs e)
+        {
+            Color[] colors = { Color.Yellow, Color.Red, Color.Green, Color.Orange, Color.DarkGray };
+            this.BackColor = colors[rnd.Next(colors.Length)];
         }
     }
 }
