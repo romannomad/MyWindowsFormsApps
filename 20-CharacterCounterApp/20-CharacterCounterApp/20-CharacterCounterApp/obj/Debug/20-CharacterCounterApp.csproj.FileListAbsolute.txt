@@ -1,0 +1,10 @@
+D:\C# Projects\MyWindowsFormsApps\20-CharacterCounterApp\20-CharacterCounterApp\20-CharacterCounterApp\bin\Debug\20-CharacterCounterApp.exe.config
+D:\C# Projects\MyWindowsFormsApps\20-CharacterCounterApp\20-CharacterCounterApp\20-CharacterCounterApp\bin\Debug\20-CharacterCounterApp.exe
+D:\C# Projects\MyWindowsFormsApps\20-CharacterCounterApp\20-CharacterCounterApp\20-CharacterCounterApp\bin\Debug\20-CharacterCounterApp.pdb
+D:\C# Projects\MyWindowsFormsApps\20-CharacterCounterApp\20-CharacterCounterApp\20-CharacterCounterApp\obj\Debug\20-CharacterCounterApp.csproj.AssemblyReference.cache
+D:\C# Projects\MyWindowsFormsApps\20-CharacterCounterApp\20-CharacterCounterApp\20-CharacterCounterApp\obj\Debug\_20_CharacterCounterApp.Form1.resources
+D:\C# Projects\MyWindowsFormsApps\20-CharacterCounterApp\20-CharacterCounterApp\20-CharacterCounterApp\obj\Debug\_20_CharacterCounterApp.Properties.Resources.resources
+D:\C# Projects\MyWindowsFormsApps\20-CharacterCounterApp\20-CharacterCounterApp\20-CharacterCounterApp\obj\Debug\20-CharacterCounterApp.csproj.GenerateResource.cache
+D:\C# Projects\MyWindowsFormsApps\20-CharacterCounterApp\20-CharacterCounterApp\20-CharacterCounterApp\obj\Debug\20-CharacterCounterApp.csproj.CoreCompileInputs.cache
+D:\C# Projects\MyWindowsFormsApps\20-CharacterCounterApp\20-CharacterCounterApp\20-CharacterCounterApp\obj\Debug\20-CharacterCounterApp.exe
+D:\C# Projects\MyWindowsFormsApps\20-CharacterCounterApp\20-CharacterCounterApp\20-CharacterCounterApp\obj\Debug\20-CharacterCounterApp.pdb

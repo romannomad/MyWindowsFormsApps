@@ -1,0 +1,10 @@
+D:\C# Projects\MyWindowsFormsApps\21-SimpleDrawingApp\SimpleDrawingApp\SimpleDrawingApp\bin\Debug\SimpleDrawingApp.exe.config
+D:\C# Projects\MyWindowsFormsApps\21-SimpleDrawingApp\SimpleDrawingApp\SimpleDrawingApp\bin\Debug\SimpleDrawingApp.exe
+D:\C# Projects\MyWindowsFormsApps\21-SimpleDrawingApp\SimpleDrawingApp\SimpleDrawingApp\bin\Debug\SimpleDrawingApp.pdb
+D:\C# Projects\MyWindowsFormsApps\21-SimpleDrawingApp\SimpleDrawingApp\SimpleDrawingApp\obj\Debug\SimpleDrawingApp.csproj.AssemblyReference.cache
+D:\C# Projects\MyWindowsFormsApps\21-SimpleDrawingApp\SimpleDrawingApp\SimpleDrawingApp\obj\Debug\SimpleDrawingApp.Form1.resources
+D:\C# Projects\MyWindowsFormsApps\21-SimpleDrawingApp\SimpleDrawingApp\SimpleDrawingApp\obj\Debug\SimpleDrawingApp.Properties.Resources.resources
+D:\C# Projects\MyWindowsFormsApps\21-SimpleDrawingApp\SimpleDrawingApp\SimpleDrawingApp\obj\Debug\SimpleDrawingApp.csproj.GenerateResource.cache
+D:\C# Projects\MyWindowsFormsApps\21-SimpleDrawingApp\SimpleDrawingApp\SimpleDrawingApp\obj\Debug\SimpleDrawingApp.csproj.CoreCompileInputs.cache
+D:\C# Projects\MyWindowsFormsApps\21-SimpleDrawingApp\SimpleDrawingApp\SimpleDrawingApp\obj\Debug\SimpleDrawingApp.exe
+D:\C# Projects\MyWindowsFormsApps\21-SimpleDrawingApp\SimpleDrawingApp\SimpleDrawingApp\obj\Debug\SimpleDrawingApp.pdb
