@@ -31,6 +31,7 @@
             this.btnClick = new System.Windows.Forms.Button();
             this.lblText = new System.Windows.Forms.Label();
             this.lblWords = new System.Windows.Forms.Label();
+            this.lblCounter = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnClick
@@ -64,11 +65,22 @@
             this.lblWords.TabIndex = 2;
             this.lblWords.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // lblCounter
+            // 
+            this.lblCounter.AutoSize = true;
+            this.lblCounter.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCounter.Location = new System.Drawing.Point(668, 27);
+            this.lblCounter.Name = "lblCounter";
+            this.lblCounter.Size = new System.Drawing.Size(229, 32);
+            this.lblCounter.TabIndex = 3;
+            this.lblCounter.Text = "Words learned: 0";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(974, 450);
+            this.Controls.Add(this.lblCounter);
             this.Controls.Add(this.lblWords);
             this.Controls.Add(this.lblText);
             this.Controls.Add(this.btnClick);
@@ -84,6 +96,7 @@
         private System.Windows.Forms.Button btnClick;
         private System.Windows.Forms.Label lblText;
         private System.Windows.Forms.Label lblWords;
+        private System.Windows.Forms.Label lblCounter;
     }
 }
 

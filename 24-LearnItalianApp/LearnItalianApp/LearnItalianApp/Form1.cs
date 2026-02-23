@@ -12,6 +12,7 @@ namespace LearnItalianApp
 {
     public partial class Form1 : Form
     {
+        int wordsLearned = 0;
         string[] italianWords =
         {
             "ciao - hello",
@@ -78,6 +79,10 @@ namespace LearnItalianApp
 
             lblWords.Text = italianWords[index];
 
+            lblWords.Left = (this.ClientSize.Width - lblWords.Width) / 2;
+
+            wordsLearned++;
+            lblCounter.Text = "Words learned: " + wordsLearned;
         }
     }
 }
