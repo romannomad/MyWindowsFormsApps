@@ -45,7 +45,8 @@ namespace LearnItalianApp
             Random rnd = new Random();
             int index = rnd.Next(italianWords.Length);
 
-            MessageBox.Show(italianWords[index]);
+            lblWords.Text = italianWords[index];
+
         }
     }
 }
