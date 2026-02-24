@@ -109,8 +109,8 @@ namespace LearnItalianApp
 
         private void DrawItalianFlag(Graphics g)
         {
-            int x = 10;
-            int y = 10;
+            int x = 20;
+            int y = 20;
             int width = 45;
             int height = 30;
 
