@@ -20,7 +20,12 @@ namespace FunnyJokesApp
             "I told my computer I needed a break, it said no problem and froze",
             "I’m reading a book on anti‑gravity, it’s impossible to put down",
             "I used to play piano by ear, now I use my hands",
-            "I asked my dog what two minus two is, he said nothing"
+            "I asked my dog what two minus two is, he said nothing",
+            "Why did the math book look sad? It had too many problems",
+            "I tried to catch fog yesterday… I mist",
+            "Why don’t eggs tell jokes? They’d crack each other up",
+            "I told my fridge a joke. It didn’t laugh, but the ice cracked",
+            "Why did the smartphone go to therapy? It lost its touch"
         };
         public Form1()
         {
