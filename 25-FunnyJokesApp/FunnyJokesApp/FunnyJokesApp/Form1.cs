@@ -29,7 +29,6 @@ namespace FunnyJokesApp
 
         private void btnClick_Click(object sender, EventArgs e)
         {
-            
             int index = rnd.Next(jokes.Length);
             lblResult.Text = jokes[index];
         }
@@ -38,6 +37,25 @@ namespace FunnyJokesApp
         {
             Color[] colors = { Color.Yellow, Color.Red, Color.Green, Color.Orange, Color.DarkGray, Color.BlueViolet, Color.DeepPink };
             this.BackColor = colors[rnd.Next(colors.Length)];
+        }
+
+        private void btnFind_Click(object sender, EventArgs e)
+        {
+            string query = txtSearch.Text.ToLower();
+
+            foreach (string joke in jokes)
+            {
+                if (joke.ToLower().Contains(query))
+                {
+                    lblResult.ForeColor = Color.Black;
+                    lblResult.Text = joke;
+                    return;
+                }
+            }
+
+            lblResult.ForeColor = Color.Red;
+            lblResult.Text = "No joke found";
+
         }
     }
 }
