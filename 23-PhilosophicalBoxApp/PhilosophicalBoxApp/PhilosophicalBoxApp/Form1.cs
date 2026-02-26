@@ -15,7 +15,7 @@ namespace PhilosophicalBoxApp
 {
     public partial class Form1 : Form
     {
-        string[] sentences = 
+        string[] sentences =
         {
 "The mind becomes clearer the moment you stop trying to impress others and start listening to yourself.",
 
@@ -37,6 +37,15 @@ namespace PhilosophicalBoxApp
 
 "Happiness grows quietly in the places where gratitude is allowed to take root."
         };
+
+        Color[] colors =
+            {
+        Color.Blue,
+        Color.Yellow,
+        Color.Orange,
+        Color.Green,
+        Color.Orchid,
+            };
         public Form1()
         {
             InitializeComponent();
@@ -48,6 +57,14 @@ namespace PhilosophicalBoxApp
             int index = lines.Next(sentences.Length);
 
             MessageBox.Show(sentences[index]);
+        }
+
+        private void btnColor_Click(object sender, EventArgs e)
+        {
+            Random rnd = new Random();
+            int index = rnd.Next(colors.Length);
+            this.BackColor = colors[index];
+
         }
     }
 }
