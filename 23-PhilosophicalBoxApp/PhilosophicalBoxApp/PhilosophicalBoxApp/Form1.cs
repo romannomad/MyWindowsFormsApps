@@ -69,6 +69,7 @@ namespace PhilosophicalBoxApp
             int index = rnd.Next(colors.Length);
             this.BackColor = colors[index];
 
+            btnColor.BackColor = Color.Orange;
         }
     }
 }
