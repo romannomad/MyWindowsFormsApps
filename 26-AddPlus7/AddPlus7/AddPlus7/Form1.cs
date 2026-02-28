@@ -12,7 +12,17 @@ namespace AddPlus7
 {
     public partial class Form1 : Form
     {
+        Random rnd = new Random();
         int counter = 1;
+
+        Color[] colors =
+        {
+            Color.Red,
+            Color.Green,
+            Color.Blue,
+            Color.Yellow,
+            Color.Orange
+        };
         public Form1()
         {
             InitializeComponent();
@@ -22,6 +32,11 @@ namespace AddPlus7
         {
             lblResult.Text = counter.ToString();
             counter += 7;
+
+            int index = rnd.Next(colors.Length);
+            this.BackColor = colors[index];
+
+
         }
     }
 }
