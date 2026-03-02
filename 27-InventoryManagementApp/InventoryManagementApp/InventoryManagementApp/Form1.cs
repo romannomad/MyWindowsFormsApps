@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace InventoryManagementApp
 {
-    public partial class InventoryManagement : Form
+    public partial class Form1 : Form
     {
         DataTable inventory = new DataTable();
-        public InventoryManagement()
+        public Form1()
         {
             InitializeComponent();
         }
@@ -68,6 +68,7 @@ namespace InventoryManagementApp
                 quantityTextBox.Text = inventory.Rows[inventoryGridView.CurrentCell.RowIndex].ItemArray[5].ToString();
 
                 string itemToLookFor = inventory.Rows[inventoryGridView.CurrentCell.RowIndex].ItemArray[2].ToString();
+                categoryBox.SelectedIndex = categoryBox.Items.IndexOf(itemToLookFor);
             }
             catch (Exception err)
             {

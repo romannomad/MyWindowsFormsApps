@@ -1,6 +1,6 @@
 ﻿namespace InventoryManagementApp
 {
-    partial class InventoryManagement
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -202,12 +202,17 @@
             // categoryBox
             // 
             this.categoryBox.FormattingEnabled = true;
+            this.categoryBox.Items.AddRange(new object[] {
+            "Hardware",
+            "Automotive",
+            "Tools",
+            "Materials"});
             this.categoryBox.Location = new System.Drawing.Point(743, 91);
             this.categoryBox.Name = "categoryBox";
             this.categoryBox.Size = new System.Drawing.Size(262, 24);
             this.categoryBox.TabIndex = 17;
             // 
-            // InventoryManagement
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -229,7 +234,7 @@
             this.Controls.Add(this.inventoryGridView);
             this.Controls.Add(this.priceTextBox);
             this.Controls.Add(this.lblInventoryName);
-            this.Name = "InventoryManagement";
+            this.Name = "Form1";
             this.Text = "Inventory Management Studio";
             this.Load += new System.EventHandler(this.InventoryManagement_Load);
             ((System.ComponentModel.ISupportInitialize)(this.inventoryGridView)).EndInit();
