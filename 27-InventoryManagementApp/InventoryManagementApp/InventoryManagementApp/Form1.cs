@@ -39,16 +39,40 @@ namespace InventoryManagementApp
             string category = (string)categoryBox.SelectedItem;
 
             inventory.Rows.Add(sku, name, category, price, description, quantity);
+
+            //Clear fields after save
+            newButton_Click(sender, e);
         }
 
         private void deleteButton_Click(object sender, EventArgs e)
         {
+            try
+            {
+                inventory.Rows[inventoryGridView.CurrentCell.RowIndex].Delete();
+            }
 
+            catch (Exception err)
+            {
+                Console.WriteLine("Error: " + err);
+            }
         }
 
         private void inventoryGridView_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
+            try
+            {
+                skuTextBox.Text = inventory.Rows[inventoryGridView.CurrentCell.RowIndex].ItemArray[0].ToString();
+                nameTextBox.Text = inventory.Rows[inventoryGridView.CurrentCell.RowIndex].ItemArray[1].ToString();
+                priceTextBox.Text = inventory.Rows[inventoryGridView.CurrentCell.RowIndex].ItemArray[3].ToString();
+                descriptionTextBox.Text = inventory.Rows[inventoryGridView.CurrentCell.RowIndex].ItemArray[4].ToString();
+                quantityTextBox.Text = inventory.Rows[inventoryGridView.CurrentCell.RowIndex].ItemArray[5].ToString();
 
+                string itemToLookFor = inventory.Rows[inventoryGridView.CurrentCell.RowIndex].ItemArray[2].ToString();
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine("There has been an error: " + err);
+            }
         }
 
         private void InventoryManagement_Load(object sender, EventArgs e)
