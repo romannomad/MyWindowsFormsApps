@@ -29,16 +29,18 @@
         private void InitializeComponent()
         {
             this.groupBox = new System.Windows.Forms.GroupBox();
+            this.radioOrange = new System.Windows.Forms.RadioButton();
             this.lblPreview = new System.Windows.Forms.Label();
             this.radioContrast = new System.Windows.Forms.RadioButton();
             this.radioDark = new System.Windows.Forms.RadioButton();
             this.radioLight = new System.Windows.Forms.RadioButton();
-            this.radioOrange = new System.Windows.Forms.RadioButton();
+            this.btnReset = new System.Windows.Forms.Button();
             this.groupBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox
             // 
+            this.groupBox.Controls.Add(this.btnReset);
             this.groupBox.Controls.Add(this.radioOrange);
             this.groupBox.Controls.Add(this.lblPreview);
             this.groupBox.Controls.Add(this.radioContrast);
@@ -46,9 +48,22 @@
             this.groupBox.Controls.Add(this.radioLight);
             this.groupBox.Location = new System.Drawing.Point(71, 36);
             this.groupBox.Name = "groupBox";
-            this.groupBox.Size = new System.Drawing.Size(682, 239);
+            this.groupBox.Size = new System.Drawing.Size(682, 368);
             this.groupBox.TabIndex = 0;
             this.groupBox.TabStop = false;
+            // 
+            // radioOrange
+            // 
+            this.radioOrange.AutoSize = true;
+            this.radioOrange.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioOrange.Location = new System.Drawing.Point(525, 75);
+            this.radioOrange.Name = "radioOrange";
+            this.radioOrange.Size = new System.Drawing.Size(99, 29);
+            this.radioOrange.TabIndex = 4;
+            this.radioOrange.TabStop = true;
+            this.radioOrange.Text = "Orange";
+            this.radioOrange.UseVisualStyleBackColor = true;
+            this.radioOrange.CheckedChanged += new System.EventHandler(this.radioOrange_CheckedChanged);
             // 
             // lblPreview
             // 
@@ -99,18 +114,16 @@
             this.radioLight.UseVisualStyleBackColor = true;
             this.radioLight.CheckedChanged += new System.EventHandler(this.radioLight_CheckedChanged);
             // 
-            // radioOrange
+            // btnReset
             // 
-            this.radioOrange.AutoSize = true;
-            this.radioOrange.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioOrange.Location = new System.Drawing.Point(525, 75);
-            this.radioOrange.Name = "radioOrange";
-            this.radioOrange.Size = new System.Drawing.Size(99, 29);
-            this.radioOrange.TabIndex = 4;
-            this.radioOrange.TabStop = true;
-            this.radioOrange.Text = "Orange";
-            this.radioOrange.UseVisualStyleBackColor = true;
-            this.radioOrange.CheckedChanged += new System.EventHandler(this.radioOrange_CheckedChanged);
+            this.btnReset.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReset.Location = new System.Drawing.Point(270, 257);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(124, 47);
+            this.btnReset.TabIndex = 5;
+            this.btnReset.Text = "Reset";
+            this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // Form1
             // 
@@ -134,6 +147,7 @@
         private System.Windows.Forms.RadioButton radioDark;
         private System.Windows.Forms.RadioButton radioLight;
         private System.Windows.Forms.RadioButton radioOrange;
+        private System.Windows.Forms.Button btnReset;
     }
 }
 

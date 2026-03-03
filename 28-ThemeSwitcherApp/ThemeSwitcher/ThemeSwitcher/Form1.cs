@@ -47,6 +47,11 @@ namespace ThemeSwitcher
                 ApplyTheme("orange");
             }
         }
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            radioLight.Checked = true;
+            ApplyTheme("light");
+        }
 
         private void ApplyTheme(string theme)
         {
