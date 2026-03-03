@@ -40,6 +40,13 @@ namespace ThemeSwitcher
                 ApplyTheme("contrast");
             }
         }
+        private void radioOrange_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioOrange.Checked)
+            {
+                ApplyTheme("orange");
+            }
+        }
 
         private void ApplyTheme(string theme)
         {
@@ -60,8 +67,14 @@ namespace ThemeSwitcher
                     this.BackColor = Color.Black;
                     lblPreview.ForeColor = Color.Yellow;
                     break;
+
+                case "orange":
+                    this.BackColor = Color.Orange;
+                    lblPreview.ForeColor = Color.White;
+                    break;
             }
         }
+
     }
 
    
