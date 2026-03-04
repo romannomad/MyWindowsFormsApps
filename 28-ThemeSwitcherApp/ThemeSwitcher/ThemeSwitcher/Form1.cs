@@ -83,16 +83,17 @@ namespace ThemeSwitcher
                     this.BackColor = Color.Orange;
                     lblPreview.ForeColor = Color.White;
                     break;
+
                 case "green":
                     this.BackColor = Color.Green;
-                    lblPreview.ForeColor = Color.Green;
+                    lblPreview.ForeColor = Color.White;
                     break;
             }
         }
 
         private void btnRandom_Click(object sender, EventArgs e)
         {
-            string[] themes = { "light", "dark", "contrast", "orange" };
+            string[] themes = { "light", "dark", "contrast", "orange", "green" };
             Random rnd = new Random();
             string color = themes[rnd.Next(themes.Length)];
 
@@ -111,6 +112,10 @@ namespace ThemeSwitcher
             if (color == "orange")
             {
                 radioOrange.Checked = true;
+            }
+            if (color == "green")
+            {
+                radioGreen.Checked = true;
             }
 
             ApplyTheme(color);
