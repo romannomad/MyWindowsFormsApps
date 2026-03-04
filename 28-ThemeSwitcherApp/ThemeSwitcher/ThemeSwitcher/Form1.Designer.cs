@@ -29,18 +29,20 @@
         private void InitializeComponent()
         {
             this.groupBox = new System.Windows.Forms.GroupBox();
+            this.btnRandom = new System.Windows.Forms.Button();
             this.btnReset = new System.Windows.Forms.Button();
             this.radioOrange = new System.Windows.Forms.RadioButton();
             this.lblPreview = new System.Windows.Forms.Label();
             this.radioContrast = new System.Windows.Forms.RadioButton();
             this.radioDark = new System.Windows.Forms.RadioButton();
             this.radioLight = new System.Windows.Forms.RadioButton();
-            this.btnRandom = new System.Windows.Forms.Button();
+            this.radioGreen = new System.Windows.Forms.RadioButton();
             this.groupBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox
             // 
+            this.groupBox.Controls.Add(this.radioGreen);
             this.groupBox.Controls.Add(this.btnRandom);
             this.groupBox.Controls.Add(this.btnReset);
             this.groupBox.Controls.Add(this.radioOrange);
@@ -50,9 +52,20 @@
             this.groupBox.Controls.Add(this.radioLight);
             this.groupBox.Location = new System.Drawing.Point(71, 36);
             this.groupBox.Name = "groupBox";
-            this.groupBox.Size = new System.Drawing.Size(682, 368);
+            this.groupBox.Size = new System.Drawing.Size(699, 368);
             this.groupBox.TabIndex = 0;
             this.groupBox.TabStop = false;
+            // 
+            // btnRandom
+            // 
+            this.btnRandom.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRandom.Location = new System.Drawing.Point(270, 319);
+            this.btnRandom.Name = "btnRandom";
+            this.btnRandom.Size = new System.Drawing.Size(124, 33);
+            this.btnRandom.TabIndex = 6;
+            this.btnRandom.Text = "Random";
+            this.btnRandom.UseVisualStyleBackColor = true;
+            this.btnRandom.Click += new System.EventHandler(this.btnRandom_Click);
             // 
             // btnReset
             // 
@@ -69,7 +82,7 @@
             // 
             this.radioOrange.AutoSize = true;
             this.radioOrange.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioOrange.Location = new System.Drawing.Point(525, 75);
+            this.radioOrange.Location = new System.Drawing.Point(445, 75);
             this.radioOrange.Name = "radioOrange";
             this.radioOrange.Size = new System.Drawing.Size(99, 29);
             this.radioOrange.TabIndex = 4;
@@ -92,7 +105,7 @@
             // 
             this.radioContrast.AutoSize = true;
             this.radioContrast.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioContrast.Location = new System.Drawing.Point(371, 74);
+            this.radioContrast.Location = new System.Drawing.Point(287, 75);
             this.radioContrast.Name = "radioContrast";
             this.radioContrast.Size = new System.Drawing.Size(107, 29);
             this.radioContrast.TabIndex = 2;
@@ -105,7 +118,7 @@
             // 
             this.radioDark.AutoSize = true;
             this.radioDark.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioDark.Location = new System.Drawing.Point(228, 75);
+            this.radioDark.Location = new System.Drawing.Point(156, 75);
             this.radioDark.Name = "radioDark";
             this.radioDark.Size = new System.Drawing.Size(74, 29);
             this.radioDark.TabIndex = 1;
@@ -118,7 +131,7 @@
             // 
             this.radioLight.AutoSize = true;
             this.radioLight.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioLight.Location = new System.Drawing.Point(61, 75);
+            this.radioLight.Location = new System.Drawing.Point(31, 74);
             this.radioLight.Name = "radioLight";
             this.radioLight.Size = new System.Drawing.Size(75, 29);
             this.radioLight.TabIndex = 0;
@@ -127,16 +140,18 @@
             this.radioLight.UseVisualStyleBackColor = true;
             this.radioLight.CheckedChanged += new System.EventHandler(this.radioLight_CheckedChanged);
             // 
-            // btnRandom
+            // radioGreen
             // 
-            this.btnRandom.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRandom.Location = new System.Drawing.Point(270, 319);
-            this.btnRandom.Name = "btnRandom";
-            this.btnRandom.Size = new System.Drawing.Size(124, 33);
-            this.btnRandom.TabIndex = 6;
-            this.btnRandom.Text = "Random";
-            this.btnRandom.UseVisualStyleBackColor = true;
-            this.btnRandom.Click += new System.EventHandler(this.btnRandom_Click);
+            this.radioGreen.AutoSize = true;
+            this.radioGreen.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioGreen.Location = new System.Drawing.Point(575, 75);
+            this.radioGreen.Name = "radioGreen";
+            this.radioGreen.Size = new System.Drawing.Size(87, 29);
+            this.radioGreen.TabIndex = 7;
+            this.radioGreen.TabStop = true;
+            this.radioGreen.Text = "Green";
+            this.radioGreen.UseVisualStyleBackColor = true;
+            this.radioGreen.CheckedChanged += new System.EventHandler(this.radioGreen_CheckedChanged);
             // 
             // Form1
             // 
@@ -162,6 +177,7 @@
         private System.Windows.Forms.RadioButton radioOrange;
         private System.Windows.Forms.Button btnReset;
         private System.Windows.Forms.Button btnRandom;
+        private System.Windows.Forms.RadioButton radioGreen;
     }
 }
 

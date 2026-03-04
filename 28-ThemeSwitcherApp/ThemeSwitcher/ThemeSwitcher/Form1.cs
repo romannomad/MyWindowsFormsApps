@@ -53,6 +53,12 @@ namespace ThemeSwitcher
             ApplyTheme("light");
         }
 
+        private void radioGreen_CheckedChanged(object sender, EventArgs e)
+        {
+            radioGreen.Checked = true;
+            ApplyTheme("green");
+        }
+
         private void ApplyTheme(string theme)
         {
             switch(theme)
@@ -76,6 +82,10 @@ namespace ThemeSwitcher
                 case "orange":
                     this.BackColor = Color.Orange;
                     lblPreview.ForeColor = Color.White;
+                    break;
+                case "green":
+                    this.BackColor = Color.Green;
+                    lblPreview.ForeColor = Color.Green;
                     break;
             }
         }
@@ -105,7 +115,7 @@ namespace ThemeSwitcher
 
             ApplyTheme(color);
         }
+
     }
 
-   
 }
