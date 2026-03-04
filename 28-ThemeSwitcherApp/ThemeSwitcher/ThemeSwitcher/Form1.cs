@@ -80,6 +80,31 @@ namespace ThemeSwitcher
             }
         }
 
+        private void btnRandom_Click(object sender, EventArgs e)
+        {
+            string[] themes = { "light", "dark", "contrast", "orange" };
+            Random rnd = new Random();
+            string color = themes[rnd.Next(themes.Length)];
+
+            if (color == "light")
+            {
+                radioLight.Checked = true;
+            }
+            if (color == "dark")
+            {
+                radioDark.Checked = true;
+            }
+            if (color == "contrast")
+            {
+                radioContrast.Checked = true;
+            }
+            if (color == "orange")
+            {
+                radioOrange.Checked = true;
+            }
+
+            ApplyTheme(color);
+        }
     }
 
    

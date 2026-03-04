@@ -29,17 +29,19 @@
         private void InitializeComponent()
         {
             this.groupBox = new System.Windows.Forms.GroupBox();
+            this.btnReset = new System.Windows.Forms.Button();
             this.radioOrange = new System.Windows.Forms.RadioButton();
             this.lblPreview = new System.Windows.Forms.Label();
             this.radioContrast = new System.Windows.Forms.RadioButton();
             this.radioDark = new System.Windows.Forms.RadioButton();
             this.radioLight = new System.Windows.Forms.RadioButton();
-            this.btnReset = new System.Windows.Forms.Button();
+            this.btnRandom = new System.Windows.Forms.Button();
             this.groupBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox
             // 
+            this.groupBox.Controls.Add(this.btnRandom);
             this.groupBox.Controls.Add(this.btnReset);
             this.groupBox.Controls.Add(this.radioOrange);
             this.groupBox.Controls.Add(this.lblPreview);
@@ -51,6 +53,17 @@
             this.groupBox.Size = new System.Drawing.Size(682, 368);
             this.groupBox.TabIndex = 0;
             this.groupBox.TabStop = false;
+            // 
+            // btnReset
+            // 
+            this.btnReset.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReset.Location = new System.Drawing.Point(270, 257);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(124, 47);
+            this.btnReset.TabIndex = 5;
+            this.btnReset.Text = "Reset";
+            this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // radioOrange
             // 
@@ -114,16 +127,16 @@
             this.radioLight.UseVisualStyleBackColor = true;
             this.radioLight.CheckedChanged += new System.EventHandler(this.radioLight_CheckedChanged);
             // 
-            // btnReset
+            // btnRandom
             // 
-            this.btnReset.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReset.Location = new System.Drawing.Point(270, 257);
-            this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(124, 47);
-            this.btnReset.TabIndex = 5;
-            this.btnReset.Text = "Reset";
-            this.btnReset.UseVisualStyleBackColor = true;
-            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
+            this.btnRandom.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRandom.Location = new System.Drawing.Point(270, 319);
+            this.btnRandom.Name = "btnRandom";
+            this.btnRandom.Size = new System.Drawing.Size(124, 33);
+            this.btnRandom.TabIndex = 6;
+            this.btnRandom.Text = "Random";
+            this.btnRandom.UseVisualStyleBackColor = true;
+            this.btnRandom.Click += new System.EventHandler(this.btnRandom_Click);
             // 
             // Form1
             // 
@@ -148,6 +161,7 @@
         private System.Windows.Forms.RadioButton radioLight;
         private System.Windows.Forms.RadioButton radioOrange;
         private System.Windows.Forms.Button btnReset;
+        private System.Windows.Forms.Button btnRandom;
     }
 }
 
