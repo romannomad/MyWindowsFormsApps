@@ -47,16 +47,18 @@ namespace ThemeSwitcher
                 ApplyTheme("orange");
             }
         }
+        private void radioGreen_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioGreen.Checked);
+            {
+                ApplyTheme("green");
+            }
+            
+        }
         private void btnReset_Click(object sender, EventArgs e)
         {
             radioLight.Checked = true;
             ApplyTheme("light");
-        }
-
-        private void radioGreen_CheckedChanged(object sender, EventArgs e)
-        {
-            radioGreen.Checked = true;
-            ApplyTheme("green");
         }
 
         private void ApplyTheme(string theme)
