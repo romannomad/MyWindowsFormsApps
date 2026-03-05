@@ -1,0 +1,10 @@
+D:\C# Projects\MyWindowsFormsApps\29-PizzaSizeCalculatorApp\PizzaSizeCalculator\PizzaSizeCalculator\bin\Debug\PizzaSizeCalculator.exe.config
+D:\C# Projects\MyWindowsFormsApps\29-PizzaSizeCalculatorApp\PizzaSizeCalculator\PizzaSizeCalculator\bin\Debug\PizzaSizeCalculator.exe
+D:\C# Projects\MyWindowsFormsApps\29-PizzaSizeCalculatorApp\PizzaSizeCalculator\PizzaSizeCalculator\bin\Debug\PizzaSizeCalculator.pdb
+D:\C# Projects\MyWindowsFormsApps\29-PizzaSizeCalculatorApp\PizzaSizeCalculator\PizzaSizeCalculator\obj\Debug\PizzaSizeCalculator.csproj.AssemblyReference.cache
+D:\C# Projects\MyWindowsFormsApps\29-PizzaSizeCalculatorApp\PizzaSizeCalculator\PizzaSizeCalculator\obj\Debug\PizzaSizeCalculator.Form1.resources
+D:\C# Projects\MyWindowsFormsApps\29-PizzaSizeCalculatorApp\PizzaSizeCalculator\PizzaSizeCalculator\obj\Debug\PizzaSizeCalculator.Properties.Resources.resources
+D:\C# Projects\MyWindowsFormsApps\29-PizzaSizeCalculatorApp\PizzaSizeCalculator\PizzaSizeCalculator\obj\Debug\PizzaSizeCalculator.csproj.GenerateResource.cache
+D:\C# Projects\MyWindowsFormsApps\29-PizzaSizeCalculatorApp\PizzaSizeCalculator\PizzaSizeCalculator\obj\Debug\PizzaSizeCalculator.csproj.CoreCompileInputs.cache
+D:\C# Projects\MyWindowsFormsApps\29-PizzaSizeCalculatorApp\PizzaSizeCalculator\PizzaSizeCalculator\obj\Debug\PizzaSizeCalculator.exe
+D:\C# Projects\MyWindowsFormsApps\29-PizzaSizeCalculatorApp\PizzaSizeCalculator\PizzaSizeCalculator\obj\Debug\PizzaSizeCalculator.pdb
