@@ -45,5 +45,14 @@ namespace PizzaSizeCalculator
         {
             labelPrice.Text = $"Price: ${price:F2}";
         }
+
+        private void buttonConfirm_Click(object sender, EventArgs e)
+        {
+            string size = radioSmall.Checked ? "Small" :
+                          radioMedium.Checked ? "Medium" :
+                          radioLarge.Checked ? "Large" : "None";
+
+            MessageBox.Show($"You ordered a {size} pizza.\n{labelPrice.Text}");
+        }
     }
 }

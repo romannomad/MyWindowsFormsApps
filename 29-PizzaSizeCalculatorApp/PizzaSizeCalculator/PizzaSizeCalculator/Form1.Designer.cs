@@ -29,15 +29,17 @@
         private void InitializeComponent()
         {
             this.groupBoxSize = new System.Windows.Forms.GroupBox();
-            this.radioSmall = new System.Windows.Forms.RadioButton();
-            this.radioMedium = new System.Windows.Forms.RadioButton();
-            this.radioLarge = new System.Windows.Forms.RadioButton();
             this.labelPrice = new System.Windows.Forms.Label();
+            this.radioLarge = new System.Windows.Forms.RadioButton();
+            this.radioMedium = new System.Windows.Forms.RadioButton();
+            this.radioSmall = new System.Windows.Forms.RadioButton();
+            this.buttonConfirm = new System.Windows.Forms.Button();
             this.groupBoxSize.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBoxSize
             // 
+            this.groupBoxSize.Controls.Add(this.buttonConfirm);
             this.groupBoxSize.Controls.Add(this.labelPrice);
             this.groupBoxSize.Controls.Add(this.radioLarge);
             this.groupBoxSize.Controls.Add(this.radioMedium);
@@ -50,31 +52,13 @@
             this.groupBoxSize.TabStop = false;
             this.groupBoxSize.Text = "Pizza Size";
             // 
-            // radioSmall
+            // labelPrice
             // 
-            this.radioSmall.AutoSize = true;
-            this.radioSmall.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioSmall.Location = new System.Drawing.Point(75, 78);
-            this.radioSmall.Name = "radioSmall";
-            this.radioSmall.Size = new System.Drawing.Size(82, 29);
-            this.radioSmall.TabIndex = 0;
-            this.radioSmall.TabStop = true;
-            this.radioSmall.Text = "Small";
-            this.radioSmall.UseVisualStyleBackColor = true;
-            this.radioSmall.CheckedChanged += new System.EventHandler(this.radioSmall_CheckedChanged);
-            // 
-            // radioMedium
-            // 
-            this.radioMedium.AutoSize = true;
-            this.radioMedium.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioMedium.Location = new System.Drawing.Point(242, 78);
-            this.radioMedium.Name = "radioMedium";
-            this.radioMedium.Size = new System.Drawing.Size(103, 29);
-            this.radioMedium.TabIndex = 1;
-            this.radioMedium.TabStop = true;
-            this.radioMedium.Text = "Medium";
-            this.radioMedium.UseVisualStyleBackColor = true;
-            this.radioMedium.CheckedChanged += new System.EventHandler(this.radioMedium_CheckedChanged);
+            this.labelPrice.AutoSize = true;
+            this.labelPrice.Location = new System.Drawing.Point(570, 78);
+            this.labelPrice.Name = "labelPrice";
+            this.labelPrice.Size = new System.Drawing.Size(0, 32);
+            this.labelPrice.TabIndex = 3;
             // 
             // radioLarge
             // 
@@ -89,13 +73,42 @@
             this.radioLarge.UseVisualStyleBackColor = true;
             this.radioLarge.CheckedChanged += new System.EventHandler(this.radioLarge_CheckedChanged);
             // 
-            // labelPrice
+            // radioMedium
             // 
-            this.labelPrice.AutoSize = true;
-            this.labelPrice.Location = new System.Drawing.Point(570, 78);
-            this.labelPrice.Name = "labelPrice";
-            this.labelPrice.Size = new System.Drawing.Size(0, 32);
-            this.labelPrice.TabIndex = 3;
+            this.radioMedium.AutoSize = true;
+            this.radioMedium.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioMedium.Location = new System.Drawing.Point(242, 78);
+            this.radioMedium.Name = "radioMedium";
+            this.radioMedium.Size = new System.Drawing.Size(103, 29);
+            this.radioMedium.TabIndex = 1;
+            this.radioMedium.TabStop = true;
+            this.radioMedium.Text = "Medium";
+            this.radioMedium.UseVisualStyleBackColor = true;
+            this.radioMedium.CheckedChanged += new System.EventHandler(this.radioMedium_CheckedChanged);
+            // 
+            // radioSmall
+            // 
+            this.radioSmall.AutoSize = true;
+            this.radioSmall.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioSmall.Location = new System.Drawing.Point(75, 78);
+            this.radioSmall.Name = "radioSmall";
+            this.radioSmall.Size = new System.Drawing.Size(82, 29);
+            this.radioSmall.TabIndex = 0;
+            this.radioSmall.TabStop = true;
+            this.radioSmall.Text = "Small";
+            this.radioSmall.UseVisualStyleBackColor = true;
+            this.radioSmall.CheckedChanged += new System.EventHandler(this.radioSmall_CheckedChanged);
+            // 
+            // buttonConfirm
+            // 
+            this.buttonConfirm.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonConfirm.Location = new System.Drawing.Point(297, 196);
+            this.buttonConfirm.Name = "buttonConfirm";
+            this.buttonConfirm.Size = new System.Drawing.Size(155, 40);
+            this.buttonConfirm.TabIndex = 4;
+            this.buttonConfirm.Text = "Confirm Order";
+            this.buttonConfirm.UseVisualStyleBackColor = true;
+            this.buttonConfirm.Click += new System.EventHandler(this.buttonConfirm_Click);
             // 
             // Form1
             // 
@@ -118,6 +131,7 @@
         private System.Windows.Forms.RadioButton radioMedium;
         private System.Windows.Forms.RadioButton radioSmall;
         private System.Windows.Forms.Label labelPrice;
+        private System.Windows.Forms.Button buttonConfirm;
     }
 }
 
