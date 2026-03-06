@@ -21,7 +21,7 @@ namespace PizzaSizeCalculator
         {
             if (radioSmall.Checked)
             {
-                UpdatePrice(5.00m);
+                UpdateTotal(5.00m);
             }
         }
 
@@ -29,7 +29,7 @@ namespace PizzaSizeCalculator
         {
             if (radioMedium.Checked)
             {
-                UpdatePrice(8.50m);
+                UpdateTotal(8.50m);
             }
         }
 
@@ -37,7 +37,7 @@ namespace PizzaSizeCalculator
         {
             if (radioLarge.Checked)
             {
-                UpdatePrice(12.00m);
+                UpdateTotal(12.00m);
             }
         }
 
@@ -53,6 +53,14 @@ namespace PizzaSizeCalculator
                           radioLarge.Checked ? "Large" : "None";
 
             MessageBox.Show($"You ordered a {size} pizza.\n{labelPrice.Text}");
+        }
+
+        private void UpdateTotal(decimal basePrice)
+        {
+            int quantity = (int)numQuantity.Value;
+            decimal total = basePrice * quantity;
+
+            labelPrice.Text = $"Total: ${total:F2}";
         }
     }
 }

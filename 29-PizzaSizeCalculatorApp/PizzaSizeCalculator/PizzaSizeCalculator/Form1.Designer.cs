@@ -29,16 +29,19 @@
         private void InitializeComponent()
         {
             this.groupBoxSize = new System.Windows.Forms.GroupBox();
+            this.buttonConfirm = new System.Windows.Forms.Button();
             this.labelPrice = new System.Windows.Forms.Label();
             this.radioLarge = new System.Windows.Forms.RadioButton();
             this.radioMedium = new System.Windows.Forms.RadioButton();
             this.radioSmall = new System.Windows.Forms.RadioButton();
-            this.buttonConfirm = new System.Windows.Forms.Button();
+            this.numQuantity = new System.Windows.Forms.NumericUpDown();
             this.groupBoxSize.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numQuantity)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBoxSize
             // 
+            this.groupBoxSize.Controls.Add(this.numQuantity);
             this.groupBoxSize.Controls.Add(this.buttonConfirm);
             this.groupBoxSize.Controls.Add(this.labelPrice);
             this.groupBoxSize.Controls.Add(this.radioLarge);
@@ -47,10 +50,21 @@
             this.groupBoxSize.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBoxSize.Location = new System.Drawing.Point(21, 12);
             this.groupBoxSize.Name = "groupBoxSize";
-            this.groupBoxSize.Size = new System.Drawing.Size(806, 268);
+            this.groupBoxSize.Size = new System.Drawing.Size(806, 315);
             this.groupBoxSize.TabIndex = 0;
             this.groupBoxSize.TabStop = false;
             this.groupBoxSize.Text = "Pizza Size";
+            // 
+            // buttonConfirm
+            // 
+            this.buttonConfirm.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonConfirm.Location = new System.Drawing.Point(313, 251);
+            this.buttonConfirm.Name = "buttonConfirm";
+            this.buttonConfirm.Size = new System.Drawing.Size(155, 40);
+            this.buttonConfirm.TabIndex = 4;
+            this.buttonConfirm.Text = "Confirm Order";
+            this.buttonConfirm.UseVisualStyleBackColor = true;
+            this.buttonConfirm.Click += new System.EventHandler(this.buttonConfirm_Click);
             // 
             // labelPrice
             // 
@@ -99,16 +113,27 @@
             this.radioSmall.UseVisualStyleBackColor = true;
             this.radioSmall.CheckedChanged += new System.EventHandler(this.radioSmall_CheckedChanged);
             // 
-            // buttonConfirm
+            // numQuantity
             // 
-            this.buttonConfirm.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonConfirm.Location = new System.Drawing.Point(297, 196);
-            this.buttonConfirm.Name = "buttonConfirm";
-            this.buttonConfirm.Size = new System.Drawing.Size(155, 40);
-            this.buttonConfirm.TabIndex = 4;
-            this.buttonConfirm.Text = "Confirm Order";
-            this.buttonConfirm.UseVisualStyleBackColor = true;
-            this.buttonConfirm.Click += new System.EventHandler(this.buttonConfirm_Click);
+            this.numQuantity.Location = new System.Drawing.Point(288, 170);
+            this.numQuantity.Maximum = new decimal(new int[] {
+            30,
+            0,
+            0,
+            0});
+            this.numQuantity.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numQuantity.Name = "numQuantity";
+            this.numQuantity.Size = new System.Drawing.Size(189, 38);
+            this.numQuantity.TabIndex = 5;
+            this.numQuantity.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // Form1
             // 
@@ -120,6 +145,7 @@
             this.Text = "Pizza Size Calculator";
             this.groupBoxSize.ResumeLayout(false);
             this.groupBoxSize.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numQuantity)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -132,6 +158,7 @@
         private System.Windows.Forms.RadioButton radioSmall;
         private System.Windows.Forms.Label labelPrice;
         private System.Windows.Forms.Button buttonConfirm;
+        private System.Windows.Forms.NumericUpDown numQuantity;
     }
 }
 
