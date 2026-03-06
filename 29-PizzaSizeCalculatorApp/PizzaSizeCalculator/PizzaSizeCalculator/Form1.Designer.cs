@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.groupBoxSize = new System.Windows.Forms.GroupBox();
+            this.numQuantity = new System.Windows.Forms.NumericUpDown();
             this.buttonConfirm = new System.Windows.Forms.Button();
             this.labelPrice = new System.Windows.Forms.Label();
             this.radioLarge = new System.Windows.Forms.RadioButton();
             this.radioMedium = new System.Windows.Forms.RadioButton();
             this.radioSmall = new System.Windows.Forms.RadioButton();
-            this.numQuantity = new System.Windows.Forms.NumericUpDown();
             this.groupBoxSize.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numQuantity)).BeginInit();
             this.SuspendLayout();
@@ -54,6 +54,29 @@
             this.groupBoxSize.TabIndex = 0;
             this.groupBoxSize.TabStop = false;
             this.groupBoxSize.Text = "Pizza Size";
+            // 
+            // numQuantity
+            // 
+            this.numQuantity.Location = new System.Drawing.Point(288, 170);
+            this.numQuantity.Maximum = new decimal(new int[] {
+            30,
+            0,
+            0,
+            0});
+            this.numQuantity.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numQuantity.Name = "numQuantity";
+            this.numQuantity.Size = new System.Drawing.Size(189, 38);
+            this.numQuantity.TabIndex = 5;
+            this.numQuantity.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numQuantity.ValueChanged += new System.EventHandler(this.numQuantity_ValueChanged);
             // 
             // buttonConfirm
             // 
@@ -112,28 +135,6 @@
             this.radioSmall.Text = "Small";
             this.radioSmall.UseVisualStyleBackColor = true;
             this.radioSmall.CheckedChanged += new System.EventHandler(this.radioSmall_CheckedChanged);
-            // 
-            // numQuantity
-            // 
-            this.numQuantity.Location = new System.Drawing.Point(288, 170);
-            this.numQuantity.Maximum = new decimal(new int[] {
-            30,
-            0,
-            0,
-            0});
-            this.numQuantity.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numQuantity.Name = "numQuantity";
-            this.numQuantity.Size = new System.Drawing.Size(189, 38);
-            this.numQuantity.TabIndex = 5;
-            this.numQuantity.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
             // 
             // Form1
             // 

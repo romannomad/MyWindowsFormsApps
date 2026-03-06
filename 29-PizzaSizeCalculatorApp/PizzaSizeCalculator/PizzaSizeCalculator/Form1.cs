@@ -62,5 +62,24 @@ namespace PizzaSizeCalculator
 
             labelPrice.Text = $"Total: ${total:F2}";
         }
+
+        private void numQuantity_ValueChanged(object sender, EventArgs e)
+        {
+            if (radioSmall.Checked)
+            {
+                UpdateTotal(5.00m);
+            }
+
+            else if (radioMedium.Checked)
+            {
+                UpdateTotal(8.50m);
+            }
+
+            if (radioLarge.Checked)
+            {
+                UpdateTotal(12.00m);
+            }
+
+        }
     }
 }
