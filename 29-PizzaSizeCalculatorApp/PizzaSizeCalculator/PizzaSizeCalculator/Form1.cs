@@ -52,7 +52,9 @@ namespace PizzaSizeCalculator
                           radioMedium.Checked ? "Medium" :
                           radioLarge.Checked ? "Large" : "None";
 
-            MessageBox.Show($"You ordered a {size} pizza.\n{labelPrice.Text}");
+            int quantity = (int)numQuantity.Value;
+
+            MessageBox.Show($"You ordered {quantity} * {size} pizza.\n{labelPrice.Text}");
         }
 
         private void UpdateTotal(decimal basePrice)
