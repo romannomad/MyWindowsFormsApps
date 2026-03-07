@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.groupBox = new System.Windows.Forms.GroupBox();
-            this.radioBeach = new System.Windows.Forms.RadioButton();
-            this.radioForest = new System.Windows.Forms.RadioButton();
-            this.radioCozy = new System.Windows.Forms.RadioButton();
-            this.radioCity = new System.Windows.Forms.RadioButton();
             this.btnShowResult = new System.Windows.Forms.Button();
+            this.radioCity = new System.Windows.Forms.RadioButton();
+            this.radioCozy = new System.Windows.Forms.RadioButton();
+            this.radioForest = new System.Windows.Forms.RadioButton();
+            this.radioBeach = new System.Windows.Forms.RadioButton();
             this.groupBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,38 +52,15 @@
             this.groupBox.TabStop = false;
             this.groupBox.Text = "Personality Quiz";
             // 
-            // radioBeach
+            // btnShowResult
             // 
-            this.radioBeach.AutoSize = true;
-            this.radioBeach.Location = new System.Drawing.Point(34, 99);
-            this.radioBeach.Name = "radioBeach";
-            this.radioBeach.Size = new System.Drawing.Size(150, 26);
-            this.radioBeach.TabIndex = 0;
-            this.radioBeach.TabStop = true;
-            this.radioBeach.Text = "A sunny beach";
-            this.radioBeach.UseVisualStyleBackColor = true;
-            // 
-            // radioForest
-            // 
-            this.radioForest.AutoSize = true;
-            this.radioForest.Location = new System.Drawing.Point(222, 99);
-            this.radioForest.Name = "radioForest";
-            this.radioForest.Size = new System.Drawing.Size(137, 26);
-            this.radioForest.TabIndex = 1;
-            this.radioForest.TabStop = true;
-            this.radioForest.Text = "A quiet forest";
-            this.radioForest.UseVisualStyleBackColor = true;
-            // 
-            // radioCozy
-            // 
-            this.radioCozy.AutoSize = true;
-            this.radioCozy.Location = new System.Drawing.Point(414, 99);
-            this.radioCozy.Name = "radioCozy";
-            this.radioCozy.Size = new System.Drawing.Size(129, 26);
-            this.radioCozy.TabIndex = 2;
-            this.radioCozy.TabStop = true;
-            this.radioCozy.Text = "A cozy room";
-            this.radioCozy.UseVisualStyleBackColor = true;
+            this.btnShowResult.Location = new System.Drawing.Point(296, 170);
+            this.btnShowResult.Name = "btnShowResult";
+            this.btnShowResult.Size = new System.Drawing.Size(155, 40);
+            this.btnShowResult.TabIndex = 4;
+            this.btnShowResult.Text = "Show Result";
+            this.btnShowResult.UseVisualStyleBackColor = true;
+            this.btnShowResult.Click += new System.EventHandler(this.btnShowResult_Click);
             // 
             // radioCity
             // 
@@ -96,14 +73,38 @@
             this.radioCity.Text = "A busy city";
             this.radioCity.UseVisualStyleBackColor = true;
             // 
-            // btnShowResult
+            // radioCozy
             // 
-            this.btnShowResult.Location = new System.Drawing.Point(296, 170);
-            this.btnShowResult.Name = "btnShowResult";
-            this.btnShowResult.Size = new System.Drawing.Size(155, 40);
-            this.btnShowResult.TabIndex = 4;
-            this.btnShowResult.Text = "Show Result";
-            this.btnShowResult.UseVisualStyleBackColor = true;
+            this.radioCozy.AutoSize = true;
+            this.radioCozy.Location = new System.Drawing.Point(414, 99);
+            this.radioCozy.Name = "radioCozy";
+            this.radioCozy.Size = new System.Drawing.Size(129, 26);
+            this.radioCozy.TabIndex = 2;
+            this.radioCozy.TabStop = true;
+            this.radioCozy.Text = "A cozy room";
+            this.radioCozy.UseVisualStyleBackColor = true;
+            // 
+            // radioForest
+            // 
+            this.radioForest.AutoSize = true;
+            this.radioForest.Location = new System.Drawing.Point(222, 99);
+            this.radioForest.Name = "radioForest";
+            this.radioForest.Size = new System.Drawing.Size(137, 26);
+            this.radioForest.TabIndex = 1;
+            this.radioForest.TabStop = true;
+            this.radioForest.Text = "A quiet forest";
+            this.radioForest.UseVisualStyleBackColor = true;
+            // 
+            // radioBeach
+            // 
+            this.radioBeach.AutoSize = true;
+            this.radioBeach.Location = new System.Drawing.Point(34, 99);
+            this.radioBeach.Name = "radioBeach";
+            this.radioBeach.Size = new System.Drawing.Size(150, 26);
+            this.radioBeach.TabIndex = 0;
+            this.radioBeach.TabStop = true;
+            this.radioBeach.Text = "A sunny beach";
+            this.radioBeach.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 

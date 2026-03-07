@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\C# Projects\\MyWindowsFormsApps\\30-PersonalityQuizApp\\PersonalityQuizApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1669553A-0D0F-40F6-BC12-B6A6CD620380}|PersonalityQuizApp\\PersonalityQuizApp.csproj|d:\\c# projects\\mywindowsformsapps\\30-personalityquizapp\\personalityquizapp\\personalityquizapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1669553A-0D0F-40F6-BC12-B6A6CD620380}|PersonalityQuizApp\\PersonalityQuizApp.csproj|solutionrelative:personalityquizapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1669553A-0D0F-40F6-BC12-B6A6CD620380}|PersonalityQuizApp\\PersonalityQuizApp.csproj|d:\\c# projects\\mywindowsformsapps\\30-personalityquizapp\\personalityquizapp\\personalityquizapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1669553A-0D0F-40F6-BC12-B6A6CD620380}|PersonalityQuizApp\\PersonalityQuizApp.csproj|solutionrelative:personalityquizapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -31,6 +35,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\C# Projects\\MyWindowsFormsApps\\30-PersonalityQuizApp\\PersonalityQuizApp\\PersonalityQuizApp\\Form1.cs",
+              "RelativeDocumentMoniker": "PersonalityQuizApp\\Form1.cs",
+              "ToolTip": "D:\\C# Projects\\MyWindowsFormsApps\\30-PersonalityQuizApp\\PersonalityQuizApp\\PersonalityQuizApp\\Form1.cs",
+              "RelativeToolTip": "PersonalityQuizApp\\Form1.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAhwDAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T20:54:49.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\C# Projects\\MyWindowsFormsApps\\30-PersonalityQuizApp\\PersonalityQuizApp\\PersonalityQuizApp\\Form1.cs",
               "RelativeDocumentMoniker": "PersonalityQuizApp\\Form1.cs",
