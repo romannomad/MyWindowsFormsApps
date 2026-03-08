@@ -12,6 +12,13 @@ namespace PersonalityQuizApp
 {
     public partial class Form1 : Form
     {
+        Color[] colors =
+        {
+            Color.Red,
+            Color.Green,
+            Color.Blue,
+            Color.Orange
+        };
         public Form1()
         {
             InitializeComponent();
@@ -47,6 +54,13 @@ namespace PersonalityQuizApp
             }
 
             MessageBox.Show(result, "Your Personality");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Random rng = new Random();
+
+            int index = rng.Next(0, colors.Length);
         }
     }
 }

@@ -34,11 +34,13 @@
             this.radioCozy = new System.Windows.Forms.RadioButton();
             this.radioForest = new System.Windows.Forms.RadioButton();
             this.radioBeach = new System.Windows.Forms.RadioButton();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox
             // 
+            this.groupBox.Controls.Add(this.button1);
             this.groupBox.Controls.Add(this.btnShowResult);
             this.groupBox.Controls.Add(this.radioCity);
             this.groupBox.Controls.Add(this.radioCozy);
@@ -106,6 +108,17 @@
             this.radioBeach.Text = "A sunny beach";
             this.radioBeach.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(313, 229);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(117, 52);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "Change Color";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -128,6 +141,7 @@
         private System.Windows.Forms.RadioButton radioForest;
         private System.Windows.Forms.RadioButton radioBeach;
         private System.Windows.Forms.Button btnShowResult;
+        private System.Windows.Forms.Button button1;
     }
 }
 
