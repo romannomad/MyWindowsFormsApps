@@ -61,6 +61,7 @@ namespace PersonalityQuizApp
             Random rng = new Random();
 
             int index = rng.Next(0, colors.Length);
+            this.BackColor = colors[index];
         }
     }
 }
