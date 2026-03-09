@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.groupBox = new System.Windows.Forms.GroupBox();
-            this.radioKmToMiles = new System.Windows.Forms.RadioButton();
-            this.radioMilesToKm = new System.Windows.Forms.RadioButton();
-            this.txtInput = new System.Windows.Forms.TextBox();
-            this.btnConvert = new System.Windows.Forms.Button();
             this.lblResult = new System.Windows.Forms.Label();
+            this.btnConvert = new System.Windows.Forms.Button();
+            this.txtInput = new System.Windows.Forms.TextBox();
+            this.radioMilesToKm = new System.Windows.Forms.RadioButton();
+            this.radioKmToMiles = new System.Windows.Forms.RadioButton();
             this.groupBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,16 +52,32 @@
             this.groupBox.TabStop = false;
             this.groupBox.Text = "Conversion Type";
             // 
-            // radioKmToMiles
+            // lblResult
             // 
-            this.radioKmToMiles.AutoSize = true;
-            this.radioKmToMiles.Location = new System.Drawing.Point(90, 160);
-            this.radioKmToMiles.Name = "radioKmToMiles";
-            this.radioKmToMiles.Size = new System.Drawing.Size(200, 29);
-            this.radioKmToMiles.TabIndex = 0;
-            this.radioKmToMiles.TabStop = true;
-            this.radioKmToMiles.Text = "Kilometers -> Miles";
-            this.radioKmToMiles.UseVisualStyleBackColor = true;
+            this.lblResult.AutoSize = true;
+            this.lblResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResult.Location = new System.Drawing.Point(108, 54);
+            this.lblResult.Name = "lblResult";
+            this.lblResult.Size = new System.Drawing.Size(0, 38);
+            this.lblResult.TabIndex = 4;
+            // 
+            // btnConvert
+            // 
+            this.btnConvert.Location = new System.Drawing.Point(348, 294);
+            this.btnConvert.Name = "btnConvert";
+            this.btnConvert.Size = new System.Drawing.Size(114, 47);
+            this.btnConvert.TabIndex = 3;
+            this.btnConvert.Text = "Convert";
+            this.btnConvert.UseVisualStyleBackColor = true;
+            this.btnConvert.Click += new System.EventHandler(this.btnConvert_Click);
+            // 
+            // txtInput
+            // 
+            this.txtInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtInput.Location = new System.Drawing.Point(478, 51);
+            this.txtInput.Name = "txtInput";
+            this.txtInput.Size = new System.Drawing.Size(311, 45);
+            this.txtInput.TabIndex = 2;
             // 
             // radioMilesToKm
             // 
@@ -74,37 +90,22 @@
             this.radioMilesToKm.Text = "Miles -> Kilometers";
             this.radioMilesToKm.UseVisualStyleBackColor = true;
             // 
-            // txtInput
+            // radioKmToMiles
             // 
-            this.txtInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtInput.Location = new System.Drawing.Point(478, 51);
-            this.txtInput.Name = "txtInput";
-            this.txtInput.Size = new System.Drawing.Size(311, 45);
-            this.txtInput.TabIndex = 2;
-            // 
-            // btnConvert
-            // 
-            this.btnConvert.Location = new System.Drawing.Point(348, 294);
-            this.btnConvert.Name = "btnConvert";
-            this.btnConvert.Size = new System.Drawing.Size(114, 47);
-            this.btnConvert.TabIndex = 3;
-            this.btnConvert.Text = "Convert";
-            this.btnConvert.UseVisualStyleBackColor = true;
-            this.btnConvert.Click += new System.EventHandler(this.btnConvert_Click);
-            // 
-            // lblResult
-            // 
-            this.lblResult.AutoSize = true;
-            this.lblResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResult.Location = new System.Drawing.Point(108, 54);
-            this.lblResult.Name = "lblResult";
-            this.lblResult.Size = new System.Drawing.Size(0, 39);
-            this.lblResult.TabIndex = 4;
+            this.radioKmToMiles.AutoSize = true;
+            this.radioKmToMiles.Location = new System.Drawing.Point(90, 160);
+            this.radioKmToMiles.Name = "radioKmToMiles";
+            this.radioKmToMiles.Size = new System.Drawing.Size(200, 29);
+            this.radioKmToMiles.TabIndex = 0;
+            this.radioKmToMiles.TabStop = true;
+            this.radioKmToMiles.Text = "Kilometers -> Miles";
+            this.radioKmToMiles.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(892, 490);
             this.Controls.Add(this.groupBox);
             this.Name = "Form1";
