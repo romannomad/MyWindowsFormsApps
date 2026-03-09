@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\C# Projects\\MyWindowsFormsApps\\31-UnitConverterApp\\UnitConverter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A9A146F-B663-4498-89D2-D7E207DF2C58}|UnitConverter\\UnitConverter.csproj|d:\\c# projects\\mywindowsformsapps\\31-unitconverterapp\\unitconverter\\unitconverter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A9A146F-B663-4498-89D2-D7E207DF2C58}|UnitConverter\\UnitConverter.csproj|solutionrelative:unitconverter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9A9A146F-B663-4498-89D2-D7E207DF2C58}|UnitConverter\\UnitConverter.csproj|D:\\C# Projects\\MyWindowsFormsApps\\31-UnitConverterApp\\UnitConverter\\unitconverter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9A9A146F-B663-4498-89D2-D7E207DF2C58}|UnitConverter\\UnitConverter.csproj|solutionrelative:unitconverter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A9A146F-B663-4498-89D2-D7E207DF2C58}|UnitConverter\\UnitConverter.csproj|d:\\c# projects\\mywindowsformsapps\\31-unitconverterapp\\unitconverter\\unitconverter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A9A146F-B663-4498-89D2-D7E207DF2C58}|UnitConverter\\UnitConverter.csproj|solutionrelative:unitconverter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +34,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\C# Projects\\MyWindowsFormsApps\\31-UnitConverterApp\\UnitConverter\\UnitConverter\\Form1.cs",
               "RelativeDocumentMoniker": "UnitConverter\\Form1.cs",
@@ -47,7 +47,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\C# Projects\\MyWindowsFormsApps\\31-UnitConverterApp\\UnitConverter\\UnitConverter\\Form1.cs",
               "RelativeDocumentMoniker": "UnitConverter\\Form1.cs",
