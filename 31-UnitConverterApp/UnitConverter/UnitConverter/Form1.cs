@@ -49,5 +49,15 @@ namespace UnitConverter
         {
             this.BackColor = Color.Orange;
         }
+
+        private void radioRedColor_CheckedChanged(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Red;
+        }
+
+        private void radioYellowColor_CheckedChanged(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Yellow;
+        }
     }
 }
