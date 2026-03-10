@@ -34,11 +34,13 @@
             this.txtInput = new System.Windows.Forms.TextBox();
             this.radioMilesToKm = new System.Windows.Forms.RadioButton();
             this.radioKmToMiles = new System.Windows.Forms.RadioButton();
+            this.radioChangeColor = new System.Windows.Forms.RadioButton();
             this.groupBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox
             // 
+            this.groupBox.Controls.Add(this.radioChangeColor);
             this.groupBox.Controls.Add(this.lblResult);
             this.groupBox.Controls.Add(this.btnConvert);
             this.groupBox.Controls.Add(this.txtInput);
@@ -101,6 +103,18 @@
             this.radioKmToMiles.Text = "Kilometers -> Miles";
             this.radioKmToMiles.UseVisualStyleBackColor = true;
             // 
+            // radioChangeColor
+            // 
+            this.radioChangeColor.AutoSize = true;
+            this.radioChangeColor.Location = new System.Drawing.Point(586, 294);
+            this.radioChangeColor.Name = "radioChangeColor";
+            this.radioChangeColor.Size = new System.Drawing.Size(155, 29);
+            this.radioChangeColor.TabIndex = 5;
+            this.radioChangeColor.TabStop = true;
+            this.radioChangeColor.Text = "Change Color";
+            this.radioChangeColor.UseVisualStyleBackColor = true;
+            this.radioChangeColor.CheckedChanged += new System.EventHandler(this.radioChangeColor_CheckedChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -124,6 +138,7 @@
         private System.Windows.Forms.RadioButton radioKmToMiles;
         private System.Windows.Forms.Label lblResult;
         private System.Windows.Forms.Button btnConvert;
+        private System.Windows.Forms.RadioButton radioChangeColor;
     }
 }
 

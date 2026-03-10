@@ -44,5 +44,10 @@ namespace UnitConverter
                 lblResult.Text = "Please select a conversion type.";
             }
         }
+
+        private void radioChangeColor_CheckedChanged(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Orange;
+        }
     }
 }
