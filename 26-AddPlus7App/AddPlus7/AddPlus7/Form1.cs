@@ -21,7 +21,10 @@ namespace AddPlus7
             Color.Green,
             Color.Blue,
             Color.Yellow,
-            Color.Orange
+            Color.Orange,
+            Color.AntiqueWhite,
+            Color.Aqua,
+            Color.Chocolate
         };
         public Form1()
         {
@@ -35,6 +38,7 @@ namespace AddPlus7
 
             int index = rnd.Next(colors.Length);
             this.BackColor = colors[index];
+            this.ForeColor = colors[index];
 
 
         }

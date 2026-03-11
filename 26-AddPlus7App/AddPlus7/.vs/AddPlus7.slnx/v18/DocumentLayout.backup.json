@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\C# Projects\\MyWindowsFormsApps\\26-AddPlus7\\AddPlus7\\",
+  "WorkspaceRootPath": "D:\\C# Projects\\MyWindowsFormsApps\\26-AddPlus7App\\AddPlus7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{27872978-551C-43E8-A2F7-1B5ED30B1178}|AddPlus7\\AddPlus7.csproj|d:\\c# projects\\mywindowsformsapps\\26-addplus7\\addplus7\\addplus7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{27872978-551C-43E8-A2F7-1B5ED30B1178}|AddPlus7\\AddPlus7.csproj|d:\\c# projects\\mywindowsformsapps\\26-addplus7app\\addplus7\\addplus7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{27872978-551C-43E8-A2F7-1B5ED30B1178}|AddPlus7\\AddPlus7.csproj|solutionrelative:addplus7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27872978-551C-43E8-A2F7-1B5ED30B1178}|AddPlus7\\AddPlus7.csproj|d:\\c# projects\\mywindowsformsapps\\26-addplus7\\addplus7\\addplus7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{27872978-551C-43E8-A2F7-1B5ED30B1178}|AddPlus7\\AddPlus7.csproj|D:\\C# Projects\\MyWindowsFormsApps\\26-AddPlus7App\\AddPlus7\\addplus7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27872978-551C-43E8-A2F7-1B5ED30B1178}|AddPlus7\\AddPlus7.csproj|solutionrelative:addplus7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -36,11 +36,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\C# Projects\\MyWindowsFormsApps\\26-AddPlus7\\AddPlus7\\AddPlus7\\Form1.cs",
+              "DocumentMoniker": "D:\\C# Projects\\MyWindowsFormsApps\\26-AddPlus7App\\AddPlus7\\AddPlus7\\Form1.cs",
               "RelativeDocumentMoniker": "AddPlus7\\Form1.cs",
-              "ToolTip": "D:\\C# Projects\\MyWindowsFormsApps\\26-AddPlus7\\AddPlus7\\AddPlus7\\Form1.cs",
-              "RelativeToolTip": "AddPlus7\\Form1.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCQAAAArAAAAAAAAAA==",
+              "ToolTip": "D:\\C# Projects\\MyWindowsFormsApps\\26-AddPlus7App\\AddPlus7\\AddPlus7\\Form1.cs*",
+              "RelativeToolTip": "AddPlus7\\Form1.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-28T08:44:11.746Z",
               "EditorCaption": ""
@@ -49,10 +49,10 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\C# Projects\\MyWindowsFormsApps\\26-AddPlus7\\AddPlus7\\AddPlus7\\Form1.cs",
+              "DocumentMoniker": "D:\\C# Projects\\MyWindowsFormsApps\\26-AddPlus7App\\AddPlus7\\AddPlus7\\Form1.cs",
               "RelativeDocumentMoniker": "AddPlus7\\Form1.cs",
-              "ToolTip": "D:\\C# Projects\\MyWindowsFormsApps\\26-AddPlus7\\AddPlus7\\AddPlus7\\Form1.cs [Design]",
-              "RelativeToolTip": "AddPlus7\\Form1.cs [Design]",
+              "ToolTip": "D:\\C# Projects\\MyWindowsFormsApps\\26-AddPlus7App\\AddPlus7\\AddPlus7\\Form1.cs [Design]*",
+              "RelativeToolTip": "AddPlus7\\Form1.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-28T08:40:18.967Z",
               "EditorCaption": " [Design]"

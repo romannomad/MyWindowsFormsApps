@@ -60,7 +60,7 @@
             this.Controls.Add(this.lblResult);
             this.Controls.Add(this.btnClick);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Add Plus 7";
             this.ResumeLayout(false);
             this.PerformLayout();
 
