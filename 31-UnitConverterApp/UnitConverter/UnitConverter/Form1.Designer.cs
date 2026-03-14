@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox = new System.Windows.Forms.GroupBox();
+            this.radioBlueColor = new System.Windows.Forms.RadioButton();
             this.radioYellowColor = new System.Windows.Forms.RadioButton();
             this.radioRedColor = new System.Windows.Forms.RadioButton();
             this.radioChangeColor = new System.Windows.Forms.RadioButton();
@@ -37,7 +38,6 @@
             this.txtInput = new System.Windows.Forms.TextBox();
             this.radioMilesToKm = new System.Windows.Forms.RadioButton();
             this.radioKmToMiles = new System.Windows.Forms.RadioButton();
-            this.radioBlueColor = new System.Windows.Forms.RadioButton();
             this.groupBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,6 +59,18 @@
             this.groupBox.TabIndex = 0;
             this.groupBox.TabStop = false;
             this.groupBox.Text = "Conversion Type";
+            // 
+            // radioBlueColor
+            // 
+            this.radioBlueColor.AutoSize = true;
+            this.radioBlueColor.Location = new System.Drawing.Point(586, 363);
+            this.radioBlueColor.Name = "radioBlueColor";
+            this.radioBlueColor.Size = new System.Drawing.Size(124, 29);
+            this.radioBlueColor.TabIndex = 8;
+            this.radioBlueColor.TabStop = true;
+            this.radioBlueColor.Text = "Blue Color";
+            this.radioBlueColor.UseVisualStyleBackColor = true;
+            this.radioBlueColor.CheckedChanged += new System.EventHandler(this.radioBlueColor_CheckedChanged);
             // 
             // radioYellowColor
             // 
@@ -144,17 +156,6 @@
             this.radioKmToMiles.TabStop = true;
             this.radioKmToMiles.Text = "Kilometers -> Miles";
             this.radioKmToMiles.UseVisualStyleBackColor = true;
-            // 
-            // radioBlueColor
-            // 
-            this.radioBlueColor.AutoSize = true;
-            this.radioBlueColor.Location = new System.Drawing.Point(586, 363);
-            this.radioBlueColor.Name = "radioBlueColor";
-            this.radioBlueColor.Size = new System.Drawing.Size(124, 29);
-            this.radioBlueColor.TabIndex = 8;
-            this.radioBlueColor.TabStop = true;
-            this.radioBlueColor.Text = "Blue Color";
-            this.radioBlueColor.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
