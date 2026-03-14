@@ -29,19 +29,21 @@
         private void InitializeComponent()
         {
             this.groupBox = new System.Windows.Forms.GroupBox();
+            this.radioYellowColor = new System.Windows.Forms.RadioButton();
+            this.radioRedColor = new System.Windows.Forms.RadioButton();
             this.radioChangeColor = new System.Windows.Forms.RadioButton();
             this.lblResult = new System.Windows.Forms.Label();
             this.btnConvert = new System.Windows.Forms.Button();
             this.txtInput = new System.Windows.Forms.TextBox();
             this.radioMilesToKm = new System.Windows.Forms.RadioButton();
             this.radioKmToMiles = new System.Windows.Forms.RadioButton();
-            this.radioRedColor = new System.Windows.Forms.RadioButton();
-            this.radioYellowColor = new System.Windows.Forms.RadioButton();
+            this.radioBlueColor = new System.Windows.Forms.RadioButton();
             this.groupBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox
             // 
+            this.groupBox.Controls.Add(this.radioBlueColor);
             this.groupBox.Controls.Add(this.radioYellowColor);
             this.groupBox.Controls.Add(this.radioRedColor);
             this.groupBox.Controls.Add(this.radioChangeColor);
@@ -58,10 +60,34 @@
             this.groupBox.TabStop = false;
             this.groupBox.Text = "Conversion Type";
             // 
+            // radioYellowColor
+            // 
+            this.radioYellowColor.AutoSize = true;
+            this.radioYellowColor.Location = new System.Drawing.Point(586, 327);
+            this.radioYellowColor.Name = "radioYellowColor";
+            this.radioYellowColor.Size = new System.Drawing.Size(142, 29);
+            this.radioYellowColor.TabIndex = 7;
+            this.radioYellowColor.TabStop = true;
+            this.radioYellowColor.Text = "Yellow Color";
+            this.radioYellowColor.UseVisualStyleBackColor = true;
+            this.radioYellowColor.CheckedChanged += new System.EventHandler(this.radioYellowColor_CheckedChanged);
+            // 
+            // radioRedColor
+            // 
+            this.radioRedColor.AutoSize = true;
+            this.radioRedColor.Location = new System.Drawing.Point(586, 292);
+            this.radioRedColor.Name = "radioRedColor";
+            this.radioRedColor.Size = new System.Drawing.Size(120, 29);
+            this.radioRedColor.TabIndex = 6;
+            this.radioRedColor.TabStop = true;
+            this.radioRedColor.Text = "Red Color";
+            this.radioRedColor.UseVisualStyleBackColor = true;
+            this.radioRedColor.CheckedChanged += new System.EventHandler(this.radioRedColor_CheckedChanged);
+            // 
             // radioChangeColor
             // 
             this.radioChangeColor.AutoSize = true;
-            this.radioChangeColor.Location = new System.Drawing.Point(586, 276);
+            this.radioChangeColor.Location = new System.Drawing.Point(586, 257);
             this.radioChangeColor.Name = "radioChangeColor";
             this.radioChangeColor.Size = new System.Drawing.Size(151, 29);
             this.radioChangeColor.TabIndex = 5;
@@ -119,29 +145,16 @@
             this.radioKmToMiles.Text = "Kilometers -> Miles";
             this.radioKmToMiles.UseVisualStyleBackColor = true;
             // 
-            // radioRedColor
+            // radioBlueColor
             // 
-            this.radioRedColor.AutoSize = true;
-            this.radioRedColor.Location = new System.Drawing.Point(586, 312);
-            this.radioRedColor.Name = "radioRedColor";
-            this.radioRedColor.Size = new System.Drawing.Size(120, 29);
-            this.radioRedColor.TabIndex = 6;
-            this.radioRedColor.TabStop = true;
-            this.radioRedColor.Text = "Red Color";
-            this.radioRedColor.UseVisualStyleBackColor = true;
-            this.radioRedColor.CheckedChanged += new System.EventHandler(this.radioRedColor_CheckedChanged);
-            // 
-            // radioYellowColor
-            // 
-            this.radioYellowColor.AutoSize = true;
-            this.radioYellowColor.Location = new System.Drawing.Point(586, 347);
-            this.radioYellowColor.Name = "radioYellowColor";
-            this.radioYellowColor.Size = new System.Drawing.Size(142, 29);
-            this.radioYellowColor.TabIndex = 7;
-            this.radioYellowColor.TabStop = true;
-            this.radioYellowColor.Text = "Yellow Color";
-            this.radioYellowColor.UseVisualStyleBackColor = true;
-            this.radioYellowColor.CheckedChanged += new System.EventHandler(this.radioYellowColor_CheckedChanged);
+            this.radioBlueColor.AutoSize = true;
+            this.radioBlueColor.Location = new System.Drawing.Point(586, 363);
+            this.radioBlueColor.Name = "radioBlueColor";
+            this.radioBlueColor.Size = new System.Drawing.Size(124, 29);
+            this.radioBlueColor.TabIndex = 8;
+            this.radioBlueColor.TabStop = true;
+            this.radioBlueColor.Text = "Blue Color";
+            this.radioBlueColor.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -169,6 +182,7 @@
         private System.Windows.Forms.RadioButton radioChangeColor;
         private System.Windows.Forms.RadioButton radioRedColor;
         private System.Windows.Forms.RadioButton radioYellowColor;
+        private System.Windows.Forms.RadioButton radioBlueColor;
     }
 }
 
