@@ -64,5 +64,10 @@ namespace UnitConverter
         {
             this.BackColor = Color.Blue;
         }
+
+        private void radioPinkColor_CheckedChanged(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Pink;
+        }
     }
 }
