@@ -17,7 +17,10 @@ namespace PersonalityQuizApp
             Color.Red,
             Color.Green,
             Color.Blue,
-            Color.Orange
+            Color.Orange,
+            Color.Pink,
+            Color.Yellow,
+            Color.Orchid
         };
         public Form1()
         {
