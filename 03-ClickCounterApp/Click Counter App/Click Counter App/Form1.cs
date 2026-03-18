@@ -10,8 +10,10 @@ using System.Windows.Forms;
 
 namespace Click_Counter_App
 {
+    
     public partial class Form1 : Form
     {
+        private Random rnd = new Random();
         private int count = 0;
         public Form1()
         {
@@ -27,6 +29,13 @@ namespace Click_Counter_App
         {
             count++;
             labelCount.Text = count.ToString();
+
+            this.BackColor = Color.FromArgb
+                (
+                rnd.Next(256),
+                rnd.Next(256),
+                rnd.Next(256)
+                );
         }
 
         private void buttonReset_Click(object sender, EventArgs e)
