@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\C# Projects\\Windows Forms Projects\\31 My Name Is\\MyNameIs\\",
+  "WorkspaceRootPath": "D:\\C# Projects\\MyWindowsFormsApps\\01-MyNameIsApp\\MyNameIs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{263EEC15-5C99-48B4-BE22-932F1BF9C644}|MyNameIs\\MyNameIs.csproj|d:\\c# projects\\windows forms projects\\31 my name is\\mynameis\\mynameis\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{263EEC15-5C99-48B4-BE22-932F1BF9C644}|MyNameIs\\MyNameIs.csproj|solutionrelative:mynameis\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{263EEC15-5C99-48B4-BE22-932F1BF9C644}|MyNameIs\\MyNameIs.csproj|D:\\C# Projects\\MyWindowsFormsApps\\01-MyNameIsApp\\MyNameIs\\mynameis\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{263EEC15-5C99-48B4-BE22-932F1BF9C644}|MyNameIs\\MyNameIs.csproj|solutionrelative:mynameis\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{263EEC15-5C99-48B4-BE22-932F1BF9C644}|MyNameIs\\MyNameIs.csproj|D:\\C# Projects\\Windows Forms Projects\\31 My Name Is\\MyNameIs\\mynameis\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{263EEC15-5C99-48B4-BE22-932F1BF9C644}|MyNameIs\\MyNameIs.csproj|solutionrelative:mynameis\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{263EEC15-5C99-48B4-BE22-932F1BF9C644}|MyNameIs\\MyNameIs.csproj|d:\\c# projects\\mywindowsformsapps\\01-mynameisapp\\mynameis\\mynameis\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{263EEC15-5C99-48B4-BE22-932F1BF9C644}|MyNameIs\\MyNameIs.csproj|solutionrelative:mynameis\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,12 +34,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\C# Projects\\Windows Forms Projects\\31 My Name Is\\MyNameIs\\MyNameIs\\Form1.cs",
+              "DocumentMoniker": "D:\\C# Projects\\MyWindowsFormsApps\\01-MyNameIsApp\\MyNameIs\\MyNameIs\\Form1.cs",
               "RelativeDocumentMoniker": "MyNameIs\\Form1.cs",
-              "ToolTip": "D:\\C# Projects\\Windows Forms Projects\\31 My Name Is\\MyNameIs\\MyNameIs\\Form1.cs",
-              "RelativeToolTip": "MyNameIs\\Form1.cs",
+              "ToolTip": "D:\\C# Projects\\MyWindowsFormsApps\\01-MyNameIsApp\\MyNameIs\\MyNameIs\\Form1.cs*",
+              "RelativeToolTip": "MyNameIs\\Form1.cs*",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-03T07:44:00.955Z",
@@ -47,14 +47,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\C# Projects\\Windows Forms Projects\\31 My Name Is\\MyNameIs\\MyNameIs\\Form1.cs",
+              "DocumentMoniker": "D:\\C# Projects\\MyWindowsFormsApps\\01-MyNameIsApp\\MyNameIs\\MyNameIs\\Form1.cs",
               "RelativeDocumentMoniker": "MyNameIs\\Form1.cs",
-              "ToolTip": "D:\\C# Projects\\Windows Forms Projects\\31 My Name Is\\MyNameIs\\MyNameIs\\Form1.cs [Design]",
-              "RelativeToolTip": "MyNameIs\\Form1.cs [Design]",
+              "ToolTip": "D:\\C# Projects\\MyWindowsFormsApps\\01-MyNameIsApp\\MyNameIs\\MyNameIs\\Form1.cs [Design]*",
+              "RelativeToolTip": "MyNameIs\\Form1.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T07:42:42.455Z"
+              "WhenOpened": "2026-01-03T07:42:42.455Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

@@ -8,3 +8,13 @@ D:\C# Projects\Windows Forms Projects\31 My Name Is\MyNameIs\MyNameIs\obj\Debug\
 D:\C# Projects\Windows Forms Projects\31 My Name Is\MyNameIs\MyNameIs\obj\Debug\MyNameIs.csproj.CoreCompileInputs.cache
 D:\C# Projects\Windows Forms Projects\31 My Name Is\MyNameIs\MyNameIs\obj\Debug\MyNameIs.exe
 D:\C# Projects\Windows Forms Projects\31 My Name Is\MyNameIs\MyNameIs\obj\Debug\MyNameIs.pdb
+D:\C# Projects\MyWindowsFormsApps\01-MyNameIsApp\MyNameIs\MyNameIs\bin\Debug\MyNameIs.exe.config
+D:\C# Projects\MyWindowsFormsApps\01-MyNameIsApp\MyNameIs\MyNameIs\bin\Debug\MyNameIs.exe
+D:\C# Projects\MyWindowsFormsApps\01-MyNameIsApp\MyNameIs\MyNameIs\bin\Debug\MyNameIs.pdb
+D:\C# Projects\MyWindowsFormsApps\01-MyNameIsApp\MyNameIs\MyNameIs\obj\Debug\MyNameIs.csproj.AssemblyReference.cache
+D:\C# Projects\MyWindowsFormsApps\01-MyNameIsApp\MyNameIs\MyNameIs\obj\Debug\MyNameIs.Form1.resources
+D:\C# Projects\MyWindowsFormsApps\01-MyNameIsApp\MyNameIs\MyNameIs\obj\Debug\MyNameIs.Properties.Resources.resources
+D:\C# Projects\MyWindowsFormsApps\01-MyNameIsApp\MyNameIs\MyNameIs\obj\Debug\MyNameIs.csproj.GenerateResource.cache
+D:\C# Projects\MyWindowsFormsApps\01-MyNameIsApp\MyNameIs\MyNameIs\obj\Debug\MyNameIs.csproj.CoreCompileInputs.cache
+D:\C# Projects\MyWindowsFormsApps\01-MyNameIsApp\MyNameIs\MyNameIs\obj\Debug\MyNameIs.exe
+D:\C# Projects\MyWindowsFormsApps\01-MyNameIsApp\MyNameIs\MyNameIs\obj\Debug\MyNameIs.pdb
