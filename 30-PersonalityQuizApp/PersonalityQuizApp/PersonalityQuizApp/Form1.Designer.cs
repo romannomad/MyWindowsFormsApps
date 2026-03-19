@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.groupBox = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.btnShowResult = new System.Windows.Forms.Button();
             this.radioCity = new System.Windows.Forms.RadioButton();
             this.radioCozy = new System.Windows.Forms.RadioButton();
             this.radioForest = new System.Windows.Forms.RadioButton();
             this.radioBeach = new System.Windows.Forms.RadioButton();
-            this.button1 = new System.Windows.Forms.Button();
             this.groupBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,6 +53,17 @@
             this.groupBox.TabIndex = 0;
             this.groupBox.TabStop = false;
             this.groupBox.Text = "Personality Quiz";
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(313, 229);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(117, 52);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "Change Color";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnShowResult
             // 
@@ -107,17 +118,6 @@
             this.radioBeach.TabStop = true;
             this.radioBeach.Text = "A sunny beach";
             this.radioBeach.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(313, 229);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(117, 52);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Change Color";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
