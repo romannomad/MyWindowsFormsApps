@@ -50,7 +50,8 @@ namespace PhilosophicalBoxApp
         Color.AliceBlue,
         Color.Azure,
         Color.Goldenrod,
-        Color.DarkKhaki
+        Color.DarkKhaki,
+        Color.Orchid
             };
         public Form1()
         {
