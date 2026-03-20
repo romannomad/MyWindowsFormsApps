@@ -30,5 +30,10 @@ namespace _20_CharacterCounterApp
                 lblCount.Text = $"Characters: {count}";
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Pink;
+        }
     }
 }

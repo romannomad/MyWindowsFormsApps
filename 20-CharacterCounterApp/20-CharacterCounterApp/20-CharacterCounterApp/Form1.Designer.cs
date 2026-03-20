@@ -30,6 +30,7 @@
         {
             this.txtInput = new System.Windows.Forms.TextBox();
             this.lblCount = new System.Windows.Forms.Label();
+            this.btnChangeColor = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtInput
@@ -47,17 +48,29 @@
             // 
             this.lblCount.AutoSize = true;
             this.lblCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCount.Location = new System.Drawing.Point(364, 347);
+            this.lblCount.Location = new System.Drawing.Point(221, 347);
             this.lblCount.Name = "lblCount";
-            this.lblCount.Size = new System.Drawing.Size(36, 39);
+            this.lblCount.Size = new System.Drawing.Size(35, 38);
             this.lblCount.TabIndex = 1;
             this.lblCount.Text = "0";
+            // 
+            // btnChangeColor
+            // 
+            this.btnChangeColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnChangeColor.Location = new System.Drawing.Point(522, 330);
+            this.btnChangeColor.Name = "btnChangeColor";
+            this.btnChangeColor.Size = new System.Drawing.Size(225, 55);
+            this.btnChangeColor.TabIndex = 2;
+            this.btnChangeColor.Text = "Change Color";
+            this.btnChangeColor.UseVisualStyleBackColor = true;
+            this.btnChangeColor.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnChangeColor);
             this.Controls.Add(this.lblCount);
             this.Controls.Add(this.txtInput);
             this.Name = "Form1";
@@ -71,6 +84,7 @@
 
         private System.Windows.Forms.TextBox txtInput;
         private System.Windows.Forms.Label lblCount;
+        private System.Windows.Forms.Button btnChangeColor;
     }
 }
 
